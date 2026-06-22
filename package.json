@@ -1,0 +1,19 @@
+{
+  "name": "foregate-worldcup-model",
+  "version": "1.0.0",
+  "description": "ForeGate open-source 2026 World Cup prediction model — event-weighted Elo + Dixon-Coles Poisson + Monte Carlo, with published hit-rate. Zero dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "import-elo": "node data/import-elo.mjs",
+    "import-results": "node data/import-real.mjs",
+    "calibrate": "node calibrate.mjs",
+    "backtest": "node backtest.mjs",
+    "simulate": "node simulate.mjs",
+    "build": "node build.mjs",
+    "predict": "node predict.mjs",
+    "update": "node update-elo.mjs"
+  },
+  "keywords": ["world-cup-2026","elo","dixon-coles","poisson","monte-carlo","sports-analytics","predictions","foregate","brier","rps"]
+}

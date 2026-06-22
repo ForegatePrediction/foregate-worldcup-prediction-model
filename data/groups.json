@@ -1,0 +1,19 @@
+{
+  "_note": "Official FIFA 2026 World Cup group draw (12 groups of 4). Team names are slugs matching seed-elo.json.",
+  "source": "FIFA 2026 official draw",
+  "format": { "groups": 12, "teamsPerGroup": 4, "advance": "top 2 per group + 8 best third-placed = 32 -> Round of 32 -> R16 -> QF -> SF -> Final" },
+  "groups": {
+    "A": ["mexico", "south-africa", "south-korea", "czech-republic"],
+    "B": ["canada", "bosnia-and-herzegovina", "qatar", "switzerland"],
+    "C": ["brazil", "morocco", "haiti", "scotland"],
+    "D": ["usa", "paraguay", "australia", "turkey"],
+    "E": ["germany", "curacao", "ivory-coast", "ecuador"],
+    "F": ["netherlands", "japan", "sweden", "tunisia"],
+    "G": ["belgium", "egypt", "iran", "new-zealand"],
+    "H": ["spain", "cape-verde", "saudi-arabia", "uruguay"],
+    "I": ["france", "senegal", "iraq", "norway"],
+    "J": ["argentina", "algeria", "austria", "jordan"],
+    "K": ["portugal", "dr-congo", "uzbekistan", "colombia"],
+    "L": ["england", "croatia", "ghana", "panama"]
+  }
+}

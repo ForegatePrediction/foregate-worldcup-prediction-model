@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+
+# Raw downloaded source data — never commit (keep the repo to your own code + CC0/derived data).
+# Put downloaded CSVs (e.g. martj42 results.csv) here; import-real.mjs reads from it.
+data/raw/

@@ -1,0 +1,1393 @@
+{
+  "generatedAt": "2026-06-22T18:53:35.391Z",
+  "dataIsSynthetic": false,
+  "matches": [
+    {
+      "matchId": "GA-mexico-south-africa",
+      "group": "A",
+      "home": "mexico",
+      "away": "south-africa",
+      "pHome": 0.8618,
+      "pDraw": 0.1168,
+      "pAway": 0.0214,
+      "expGoalsHome": 2.62,
+      "expGoalsAway": 0.3,
+      "over25": 0.5576,
+      "btts": 0.2458,
+      "topScore": "2-0",
+      "topScoreP": 0.1855,
+      "drivers": [
+        "Mexico is 444 Elo points stronger — the model's lean",
+        "Mexico gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 2.6-0.3, over-2.5 goals 56%"
+      ]
+    },
+    {
+      "matchId": "GA-mexico-south-korea",
+      "group": "A",
+      "home": "mexico",
+      "away": "south-korea",
+      "pHome": 0.6032,
+      "pDraw": 0.2428,
+      "pAway": 0.154,
+      "expGoalsHome": 1.92,
+      "expGoalsAway": 0.89,
+      "over25": 0.5322,
+      "btts": 0.5149,
+      "topScore": "1-1",
+      "topScoreP": 0.1161,
+      "drivers": [
+        "Mexico is 200 Elo points stronger — the model's lean",
+        "Mexico gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 1.9-0.9, over-2.5 goals 53%"
+      ]
+    },
+    {
+      "matchId": "GA-mexico-czech-republic",
+      "group": "A",
+      "home": "mexico",
+      "away": "czech-republic",
+      "pHome": 0.7013,
+      "pDraw": 0.206,
+      "pAway": 0.0927,
+      "expGoalsHome": 2.14,
+      "expGoalsAway": 0.67,
+      "over25": 0.5321,
+      "btts": 0.4425,
+      "topScore": "2-0",
+      "topScoreP": 0.1378,
+      "drivers": [
+        "Mexico is 275 Elo points stronger — the model's lean",
+        "Mexico gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 2.1-0.7, over-2.5 goals 53%"
+      ]
+    },
+    {
+      "matchId": "GA-south-africa-south-korea",
+      "group": "A",
+      "home": "south-africa",
+      "away": "south-korea",
+      "pHome": 0.0958,
+      "pDraw": 0.2153,
+      "pAway": 0.6889,
+      "expGoalsHome": 0.65,
+      "expGoalsAway": 2.05,
+      "over25": 0.5062,
+      "btts": 0.4292,
+      "topScore": "0-2",
+      "topScoreP": 0.1409,
+      "drivers": [
+        "South Korea is 244 Elo points stronger — the model's lean",
+        "Expected score 0.7-2.0, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GA-south-africa-czech-republic",
+      "group": "A",
+      "home": "south-africa",
+      "away": "czech-republic",
+      "pHome": 0.1596,
+      "pDraw": 0.2526,
+      "pAway": 0.5878,
+      "expGoalsHome": 0.87,
+      "expGoalsAway": 1.83,
+      "over25": 0.5063,
+      "btts": 0.501,
+      "topScore": "1-1",
+      "topScoreP": 0.1207,
+      "drivers": [
+        "Czech Republic is 169 Elo points stronger — the model's lean",
+        "Expected score 0.9-1.8, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GA-south-korea-czech-republic",
+      "group": "A",
+      "home": "south-korea",
+      "away": "czech-republic",
+      "pHome": 0.4568,
+      "pDraw": 0.2824,
+      "pAway": 0.2608,
+      "expGoalsHome": 1.56,
+      "expGoalsAway": 1.14,
+      "over25": 0.5064,
+      "btts": 0.5523,
+      "topScore": "1-1",
+      "topScoreP": 0.1349,
+      "drivers": [
+        "South Korea is 75 Elo points stronger — the model's lean",
+        "Tight rating + low-scoring tendency -> elevated draw chance (28%)",
+        "Expected score 1.6-1.1, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GB-canada-bosnia-and-herzegovina",
+      "group": "B",
+      "home": "canada",
+      "away": "bosnia-and-herzegovina",
+      "pHome": 0.6771,
+      "pDraw": 0.2162,
+      "pAway": 0.1067,
+      "expGoalsHome": 2.08,
+      "expGoalsAway": 0.73,
+      "over25": 0.5321,
+      "btts": 0.4635,
+      "topScore": "2-0",
+      "topScoreP": 0.1308,
+      "drivers": [
+        "Canada is 256 Elo points stronger — the model's lean",
+        "Canada gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 2.1-0.7, over-2.5 goals 53%"
+      ]
+    },
+    {
+      "matchId": "GB-canada-qatar",
+      "group": "B",
+      "home": "canada",
+      "away": "qatar",
+      "pHome": 0.8525,
+      "pDraw": 0.1243,
+      "pAway": 0.0231,
+      "expGoalsHome": 2.54,
+      "expGoalsAway": 0.3,
+      "over25": 0.5384,
+      "btts": 0.2444,
+      "topScore": "2-0",
+      "topScoreP": 0.1889,
+      "drivers": [
+        "Canada is 415 Elo points stronger — the model's lean",
+        "Canada gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 2.5-0.3, over-2.5 goals 54%"
+      ]
+    },
+    {
+      "matchId": "GB-canada-switzerland",
+      "group": "B",
+      "home": "canada",
+      "away": "switzerland",
+      "pHome": 0.2933,
+      "pDraw": 0.2799,
+      "pAway": 0.4268,
+      "expGoalsHome": 1.26,
+      "expGoalsAway": 1.55,
+      "over25": 0.5322,
+      "btts": 0.5788,
+      "topScore": "1-1",
+      "topScoreP": 0.1329,
+      "drivers": [
+        "Both sides rated within 33 Elo — close to a coin-flip",
+        "Canada gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 1.3-1.6, over-2.5 goals 53%"
+      ]
+    },
+    {
+      "matchId": "GB-bosnia-and-herzegovina-qatar",
+      "group": "B",
+      "home": "bosnia-and-herzegovina",
+      "away": "qatar",
+      "pHome": 0.574,
+      "pDraw": 0.2567,
+      "pAway": 0.1693,
+      "expGoalsHome": 1.8,
+      "expGoalsAway": 0.9,
+      "over25": 0.5063,
+      "btts": 0.5084,
+      "topScore": "1-1",
+      "topScoreP": 0.1227,
+      "drivers": [
+        "Bosnia And Herzegovina is 159 Elo points stronger — the model's lean",
+        "Expected score 1.8-0.9, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GB-bosnia-and-herzegovina-switzerland",
+      "group": "B",
+      "home": "bosnia-and-herzegovina",
+      "away": "switzerland",
+      "pHome": 0.0653,
+      "pDraw": 0.1887,
+      "pAway": 0.746,
+      "expGoalsHome": 0.52,
+      "expGoalsAway": 2.18,
+      "over25": 0.5062,
+      "btts": 0.3717,
+      "topScore": "0-2",
+      "topScoreP": 0.1591,
+      "drivers": [
+        "Switzerland is 289 Elo points stronger — the model's lean",
+        "Expected score 0.5-2.2, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GB-qatar-switzerland",
+      "group": "B",
+      "home": "qatar",
+      "away": "switzerland",
+      "pHome": 0.0212,
+      "pDraw": 0.1157,
+      "pAway": 0.8631,
+      "expGoalsHome": 0.3,
+      "expGoalsAway": 2.63,
+      "over25": 0.5602,
+      "btts": 0.246,
+      "topScore": "0-2",
+      "topScoreP": 0.185,
+      "drivers": [
+        "Switzerland is 448 Elo points stronger — the model's lean",
+        "Expected score 0.3-2.6, over-2.5 goals 56%"
+      ]
+    },
+    {
+      "matchId": "GC-brazil-morocco",
+      "group": "C",
+      "home": "brazil",
+      "away": "morocco",
+      "pHome": 0.5196,
+      "pDraw": 0.2707,
+      "pAway": 0.2097,
+      "expGoalsHome": 1.69,
+      "expGoalsAway": 1.01,
+      "over25": 0.5063,
+      "btts": 0.5328,
+      "topScore": "1-1",
+      "topScoreP": 0.1295,
+      "drivers": [
+        "Brazil is 120 Elo points stronger — the model's lean",
+        "Expected score 1.7-1.0, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GC-brazil-haiti",
+      "group": "C",
+      "home": "brazil",
+      "away": "haiti",
+      "pHome": 0.8661,
+      "pDraw": 0.1133,
+      "pAway": 0.0206,
+      "expGoalsHome": 2.66,
+      "expGoalsAway": 0.3,
+      "over25": 0.5667,
+      "btts": 0.2464,
+      "topScore": "2-0",
+      "topScoreP": 0.1837,
+      "drivers": [
+        "Brazil is 458 Elo points stronger — the model's lean",
+        "Expected score 2.7-0.3, over-2.5 goals 57%"
+      ]
+    },
+    {
+      "matchId": "GC-brazil-scotland",
+      "group": "C",
+      "home": "brazil",
+      "away": "scotland",
+      "pHome": 0.6546,
+      "pDraw": 0.2293,
+      "pAway": 0.1161,
+      "expGoalsHome": 1.97,
+      "expGoalsAway": 0.73,
+      "over25": 0.5063,
+      "btts": 0.4574,
+      "topScore": "2-0",
+      "topScoreP": 0.1308,
+      "drivers": [
+        "Brazil is 218 Elo points stronger — the model's lean",
+        "Expected score 2.0-0.7, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GC-morocco-haiti",
+      "group": "C",
+      "home": "morocco",
+      "away": "haiti",
+      "pHome": 0.8038,
+      "pDraw": 0.1574,
+      "pAway": 0.0389,
+      "expGoalsHome": 2.32,
+      "expGoalsAway": 0.38,
+      "over25": 0.506,
+      "btts": 0.2953,
+      "topScore": "2-0",
+      "topScoreP": 0.1803,
+      "drivers": [
+        "Morocco is 338 Elo points stronger — the model's lean",
+        "Expected score 2.3-0.4, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GC-morocco-scotland",
+      "group": "C",
+      "home": "morocco",
+      "away": "scotland",
+      "pHome": 0.4888,
+      "pDraw": 0.2771,
+      "pAway": 0.2341,
+      "expGoalsHome": 1.63,
+      "expGoalsAway": 1.07,
+      "over25": 0.5063,
+      "btts": 0.5435,
+      "topScore": "1-1",
+      "topScoreP": 0.1325,
+      "drivers": [
+        "Morocco is 98 Elo points stronger — the model's lean",
+        "Expected score 1.6-1.1, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GC-haiti-scotland",
+      "group": "C",
+      "home": "haiti",
+      "away": "scotland",
+      "pHome": 0.0988,
+      "pDraw": 0.2175,
+      "pAway": 0.6837,
+      "expGoalsHome": 0.66,
+      "expGoalsAway": 2.04,
+      "over25": 0.5062,
+      "btts": 0.4338,
+      "topScore": "0-2",
+      "topScoreP": 0.1393,
+      "drivers": [
+        "Scotland is 240 Elo points stronger — the model's lean",
+        "Expected score 0.7-2.0, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GD-usa-paraguay",
+      "group": "D",
+      "home": "usa",
+      "away": "paraguay",
+      "pHome": 0.4382,
+      "pDraw": 0.2787,
+      "pAway": 0.2831,
+      "expGoalsHome": 1.58,
+      "expGoalsAway": 1.23,
+      "over25": 0.5322,
+      "btts": 0.5769,
+      "topScore": "1-1",
+      "topScoreP": 0.1324,
+      "drivers": [
+        "Usa is 79 Elo points stronger — the model's lean",
+        "Usa gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 1.6-1.2, over-2.5 goals 53%"
+      ]
+    },
+    {
+      "matchId": "GD-usa-australia",
+      "group": "D",
+      "home": "usa",
+      "away": "australia",
+      "pHome": 0.4613,
+      "pDraw": 0.2757,
+      "pAway": 0.263,
+      "expGoalsHome": 1.62,
+      "expGoalsAway": 1.18,
+      "over25": 0.5322,
+      "btts": 0.572,
+      "topScore": "1-1",
+      "topScoreP": 0.1311,
+      "drivers": [
+        "Usa is 96 Elo points stronger — the model's lean",
+        "Usa gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 1.6-1.2, over-2.5 goals 53%"
+      ]
+    },
+    {
+      "matchId": "GD-usa-turkey",
+      "group": "D",
+      "home": "usa",
+      "away": "turkey",
+      "pHome": 0.4423,
+      "pDraw": 0.2782,
+      "pAway": 0.2795,
+      "expGoalsHome": 1.58,
+      "expGoalsAway": 1.22,
+      "over25": 0.5322,
+      "btts": 0.5761,
+      "topScore": "1-1",
+      "topScoreP": 0.1322,
+      "drivers": [
+        "Usa is 82 Elo points stronger — the model's lean",
+        "Usa gets the host-nation venue bonus (+75 Elo)",
+        "Expected score 1.6-1.2, over-2.5 goals 53%"
+      ]
+    },
+    {
+      "matchId": "GD-paraguay-australia",
+      "group": "D",
+      "home": "paraguay",
+      "away": "australia",
+      "pHome": 0.3776,
+      "pDraw": 0.2896,
+      "pAway": 0.3328,
+      "expGoalsHome": 1.4,
+      "expGoalsAway": 1.3,
+      "over25": 0.5064,
+      "btts": 0.564,
+      "topScore": "1-1",
+      "topScoreP": 0.1382,
+      "drivers": [
+        "Both sides rated within 17 Elo — close to a coin-flip",
+        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Expected score 1.4-1.3, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GD-paraguay-turkey",
+      "group": "D",
+      "home": "paraguay",
+      "away": "turkey",
+      "pHome": 0.3589,
+      "pDraw": 0.29,
+      "pAway": 0.351,
+      "expGoalsHome": 1.36,
+      "expGoalsAway": 1.34,
+      "over25": 0.5064,
+      "btts": 0.5646,
+      "topScore": "1-1",
+      "topScoreP": 0.1384,
+      "drivers": [
+        "Both sides rated within 3 Elo — close to a coin-flip",
+        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Expected score 1.4-1.3, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GD-australia-turkey",
+      "group": "D",
+      "home": "australia",
+      "away": "turkey",
+      "pHome": 0.3367,
+      "pDraw": 0.2898,
+      "pAway": 0.3735,
+      "expGoalsHome": 1.31,
+      "expGoalsAway": 1.39,
+      "over25": 0.5064,
+      "btts": 0.5642,
+      "topScore": "1-1",
+      "topScoreP": 0.1383,
+      "drivers": [
+        "Both sides rated within 14 Elo — close to a coin-flip",
+        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Expected score 1.3-1.4, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GE-germany-curacao",
+      "group": "E",
+      "home": "germany",
+      "away": "curacao",
+      "pHome": 0.8853,
+      "pDraw": 0.0975,
+      "pAway": 0.0172,
+      "expGoalsHome": 2.86,
+      "expGoalsAway": 0.3,
+      "over25": 0.6097,
+      "btts": 0.249,
+      "topScore": "2-0",
+      "topScoreP": 0.1742,
+      "drivers": [
+        "Germany is 527 Elo points stronger — the model's lean",
+        "Expected score 2.9-0.3, over-2.5 goals 61%"
+      ]
+    },
+    {
+      "matchId": "GE-germany-ivory-coast",
+      "group": "E",
+      "home": "germany",
+      "away": "ivory-coast",
+      "pHome": 0.6652,
+      "pDraw": 0.2251,
+      "pAway": 0.1096,
+      "expGoalsHome": 2,
+      "expGoalsAway": 0.7,
+      "over25": 0.5063,
+      "btts": 0.4491,
+      "topScore": "2-0",
+      "topScoreP": 0.1339,
+      "drivers": [
+        "Germany is 226 Elo points stronger — the model's lean",
+        "Expected score 2.0-0.7, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GE-germany-ecuador",
+      "group": "E",
+      "home": "germany",
+      "away": "ecuador",
+      "pHome": 0.4416,
+      "pDraw": 0.2845,
+      "pAway": 0.274,
+      "expGoalsHome": 1.53,
+      "expGoalsAway": 1.17,
+      "over25": 0.5064,
+      "btts": 0.5557,
+      "topScore": "1-1",
+      "topScoreP": 0.1359,
+      "drivers": [
+        "Germany is 64 Elo points stronger — the model's lean",
+        "Tight rating + low-scoring tendency -> elevated draw chance (28%)",
+        "Expected score 1.5-1.2, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GE-curacao-ivory-coast",
+      "group": "E",
+      "home": "curacao",
+      "away": "ivory-coast",
+      "pHome": 0.0582,
+      "pDraw": 0.1812,
+      "pAway": 0.7606,
+      "expGoalsHome": 0.49,
+      "expGoalsAway": 2.21,
+      "over25": 0.5061,
+      "btts": 0.3543,
+      "topScore": "0-2",
+      "topScoreP": 0.1642,
+      "drivers": [
+        "Ivory Coast is 301 Elo points stronger — the model's lean",
+        "Expected score 0.5-2.2, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GE-curacao-ecuador",
+      "group": "E",
+      "home": "curacao",
+      "away": "ecuador",
+      "pHome": 0.0204,
+      "pDraw": 0.112,
+      "pAway": 0.8676,
+      "expGoalsHome": 0.3,
+      "expGoalsAway": 2.67,
+      "over25": 0.5699,
+      "btts": 0.2466,
+      "topScore": "0-2",
+      "topScoreP": 0.1831,
+      "drivers": [
+        "Ecuador is 463 Elo points stronger — the model's lean",
+        "Expected score 0.3-2.7, over-2.5 goals 57%"
+      ]
+    },
+    {
+      "matchId": "GE-ivory-coast-ecuador",
+      "group": "E",
+      "home": "ivory-coast",
+      "away": "ecuador",
+      "pHome": 0.1664,
+      "pDraw": 0.2555,
+      "pAway": 0.5781,
+      "expGoalsHome": 0.89,
+      "expGoalsAway": 1.81,
+      "over25": 0.5063,
+      "btts": 0.5062,
+      "topScore": "1-1",
+      "topScoreP": 0.1221,
+      "drivers": [
+        "Ecuador is 162 Elo points stronger — the model's lean",
+        "Expected score 0.9-1.8, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GF-netherlands-japan",
+      "group": "F",
+      "home": "netherlands",
+      "away": "japan",
+      "pHome": 0.4388,
+      "pDraw": 0.2848,
+      "pAway": 0.2764,
+      "expGoalsHome": 1.53,
+      "expGoalsAway": 1.17,
+      "over25": 0.5064,
+      "btts": 0.5562,
+      "topScore": "1-1",
+      "topScoreP": 0.136,
+      "drivers": [
+        "Netherlands is 62 Elo points stronger — the model's lean",
+        "Tight rating + low-scoring tendency -> elevated draw chance (28%)",
+        "Expected score 1.5-1.2, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GF-netherlands-sweden",
+      "group": "F",
+      "home": "netherlands",
+      "away": "sweden",
+      "pHome": 0.6902,
+      "pDraw": 0.2147,
+      "pAway": 0.095,
+      "expGoalsHome": 2.05,
+      "expGoalsAway": 0.65,
+      "over25": 0.5062,
+      "btts": 0.4281,
+      "topScore": "2-0",
+      "topScoreP": 0.1413,
+      "drivers": [
+        "Netherlands is 245 Elo points stronger — the model's lean",
+        "Expected score 2.0-0.7, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GF-netherlands-tunisia",
+      "group": "F",
+      "home": "netherlands",
+      "away": "tunisia",
+      "pHome": 0.843,
+      "pDraw": 0.1321,
+      "pAway": 0.0249,
+      "expGoalsHome": 2.46,
+      "expGoalsAway": 0.3,
+      "over25": 0.5194,
+      "btts": 0.243,
+      "topScore": "2-0",
+      "topScoreP": 0.1919,
+      "drivers": [
+        "Netherlands is 387 Elo points stronger — the model's lean",
+        "Expected score 2.5-0.3, over-2.5 goals 52%"
+      ]
+    },
+    {
+      "matchId": "GF-japan-sweden",
+      "group": "F",
+      "home": "japan",
+      "away": "sweden",
+      "pHome": 0.6071,
+      "pDraw": 0.2464,
+      "pAway": 0.1465,
+      "expGoalsHome": 1.87,
+      "expGoalsAway": 0.83,
+      "over25": 0.5063,
+      "btts": 0.4897,
+      "topScore": "2-0",
+      "topScoreP": 0.1179,
+      "drivers": [
+        "Japan is 183 Elo points stronger — the model's lean",
+        "Expected score 1.9-0.8, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GF-japan-tunisia",
+      "group": "F",
+      "home": "japan",
+      "away": "tunisia",
+      "pHome": 0.7889,
+      "pDraw": 0.1659,
+      "pAway": 0.0452,
+      "expGoalsHome": 2.28,
+      "expGoalsAway": 0.42,
+      "over25": 0.5061,
+      "btts": 0.317,
+      "topScore": "2-0",
+      "topScoreP": 0.1746,
+      "drivers": [
+        "Japan is 325 Elo points stronger — the model's lean",
+        "Expected score 2.3-0.4, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GF-sweden-tunisia",
+      "group": "F",
+      "home": "sweden",
+      "away": "tunisia",
+      "pHome": 0.5503,
+      "pDraw": 0.2632,
+      "pAway": 0.1865,
+      "expGoalsHome": 1.76,
+      "expGoalsAway": 0.94,
+      "over25": 0.5063,
+      "btts": 0.5199,
+      "topScore": "1-1",
+      "topScoreP": 0.1259,
+      "drivers": [
+        "Sweden is 142 Elo points stronger — the model's lean",
+        "Expected score 1.8-0.9, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GG-belgium-egypt",
+      "group": "G",
+      "home": "belgium",
+      "away": "egypt",
+      "pHome": 0.5864,
+      "pDraw": 0.253,
+      "pAway": 0.1606,
+      "expGoalsHome": 1.83,
+      "expGoalsAway": 0.87,
+      "over25": 0.5063,
+      "btts": 0.5017,
+      "topScore": "1-1",
+      "topScoreP": 0.1209,
+      "drivers": [
+        "Belgium is 168 Elo points stronger — the model's lean",
+        "Expected score 1.8-0.9, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GG-belgium-iran",
+      "group": "G",
+      "home": "belgium",
+      "away": "iran",
+      "pHome": 0.5238,
+      "pDraw": 0.2698,
+      "pAway": 0.2064,
+      "expGoalsHome": 1.7,
+      "expGoalsAway": 1,
+      "over25": 0.5063,
+      "btts": 0.5312,
+      "topScore": "1-1",
+      "topScoreP": 0.129,
+      "drivers": [
+        "Belgium is 123 Elo points stronger — the model's lean",
+        "Expected score 1.7-1.0, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GG-belgium-new-zealand",
+      "group": "G",
+      "home": "belgium",
+      "away": "new-zealand",
+      "pHome": 0.7606,
+      "pDraw": 0.1812,
+      "pAway": 0.0582,
+      "expGoalsHome": 2.21,
+      "expGoalsAway": 0.49,
+      "over25": 0.5061,
+      "btts": 0.3543,
+      "topScore": "2-0",
+      "topScoreP": 0.1642,
+      "drivers": [
+        "Belgium is 301 Elo points stronger — the model's lean",
+        "Expected score 2.2-0.5, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GG-egypt-iran",
+      "group": "G",
+      "home": "egypt",
+      "away": "iran",
+      "pHome": 0.2973,
+      "pDraw": 0.2873,
+      "pAway": 0.4154,
+      "expGoalsHome": 1.22,
+      "expGoalsAway": 1.48,
+      "over25": 0.5064,
+      "btts": 0.5602,
+      "topScore": "1-1",
+      "topScoreP": 0.1372,
+      "drivers": [
+        "Both sides rated within 45 Elo — close to a coin-flip",
+        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Expected score 1.2-1.5, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GG-egypt-new-zealand",
+      "group": "G",
+      "home": "egypt",
+      "away": "new-zealand",
+      "pHome": 0.5377,
+      "pDraw": 0.2665,
+      "pAway": 0.1958,
+      "expGoalsHome": 1.73,
+      "expGoalsAway": 0.97,
+      "over25": 0.5063,
+      "btts": 0.5255,
+      "topScore": "1-1",
+      "topScoreP": 0.1274,
+      "drivers": [
+        "Egypt is 133 Elo points stronger — the model's lean",
+        "Expected score 1.7-1.0, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GG-iran-new-zealand",
+      "group": "G",
+      "home": "iran",
+      "away": "new-zealand",
+      "pHome": 0.6002,
+      "pDraw": 0.2486,
+      "pAway": 0.1511,
+      "expGoalsHome": 1.86,
+      "expGoalsAway": 0.84,
+      "over25": 0.5063,
+      "btts": 0.4939,
+      "topScore": "1-1",
+      "topScoreP": 0.1188,
+      "drivers": [
+        "Iran is 178 Elo points stronger — the model's lean",
+        "Expected score 1.9-0.8, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GH-spain-cape-verde",
+      "group": "H",
+      "home": "spain",
+      "away": "cape-verde",
+      "pHome": 0.8843,
+      "pDraw": 0.0983,
+      "pAway": 0.0174,
+      "expGoalsHome": 2.84,
+      "expGoalsAway": 0.3,
+      "over25": 0.6073,
+      "btts": 0.2489,
+      "topScore": "2-0",
+      "topScoreP": 0.1748,
+      "drivers": [
+        "Spain is 523 Elo points stronger — the model's lean",
+        "Expected score 2.8-0.3, over-2.5 goals 61%"
+      ]
+    },
+    {
+      "matchId": "GH-spain-saudi-arabia",
+      "group": "H",
+      "home": "spain",
+      "away": "saudi-arabia",
+      "pHome": 0.8864,
+      "pDraw": 0.0966,
+      "pAway": 0.017,
+      "expGoalsHome": 2.87,
+      "expGoalsAway": 0.3,
+      "over25": 0.6121,
+      "btts": 0.2491,
+      "topScore": "2-0",
+      "topScoreP": 0.1736,
+      "drivers": [
+        "Spain is 531 Elo points stronger — the model's lean",
+        "Expected score 2.9-0.3, over-2.5 goals 61%"
+      ]
+    },
+    {
+      "matchId": "GH-spain-uruguay",
+      "group": "H",
+      "home": "spain",
+      "away": "uruguay",
+      "pHome": 0.7083,
+      "pDraw": 0.2067,
+      "pAway": 0.085,
+      "expGoalsHome": 2.09,
+      "expGoalsAway": 0.61,
+      "over25": 0.5062,
+      "btts": 0.4113,
+      "topScore": "2-0",
+      "topScoreP": 0.1468,
+      "drivers": [
+        "Spain is 259 Elo points stronger — the model's lean",
+        "Expected score 2.1-0.6, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GH-cape-verde-saudi-arabia",
+      "group": "H",
+      "home": "cape-verde",
+      "away": "saudi-arabia",
+      "pHome": 0.3656,
+      "pDraw": 0.2899,
+      "pAway": 0.3445,
+      "expGoalsHome": 1.37,
+      "expGoalsAway": 1.33,
+      "over25": 0.5064,
+      "btts": 0.5645,
+      "topScore": "1-1",
+      "topScoreP": 0.1384,
+      "drivers": [
+        "Both sides rated within 8 Elo — close to a coin-flip",
+        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Expected score 1.4-1.3, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GH-cape-verde-uruguay",
+      "group": "H",
+      "home": "cape-verde",
+      "away": "uruguay",
+      "pHome": 0.0815,
+      "pDraw": 0.2038,
+      "pAway": 0.7147,
+      "expGoalsHome": 0.6,
+      "expGoalsAway": 2.1,
+      "over25": 0.5062,
+      "btts": 0.405,
+      "topScore": "0-2",
+      "topScoreP": 0.1488,
+      "drivers": [
+        "Uruguay is 264 Elo points stronger — the model's lean",
+        "Expected score 0.6-2.1, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GH-saudi-arabia-uruguay",
+      "group": "H",
+      "home": "saudi-arabia",
+      "away": "uruguay",
+      "pHome": 0.0761,
+      "pDraw": 0.1991,
+      "pAway": 0.7248,
+      "expGoalsHome": 0.57,
+      "expGoalsAway": 2.13,
+      "over25": 0.5062,
+      "btts": 0.3947,
+      "topScore": "0-2",
+      "topScoreP": 0.1521,
+      "drivers": [
+        "Uruguay is 272 Elo points stronger — the model's lean",
+        "Expected score 0.6-2.1, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GI-france-senegal",
+      "group": "I",
+      "home": "france",
+      "away": "senegal",
+      "pHome": 0.6902,
+      "pDraw": 0.2147,
+      "pAway": 0.095,
+      "expGoalsHome": 2.05,
+      "expGoalsAway": 0.65,
+      "over25": 0.5062,
+      "btts": 0.4281,
+      "topScore": "2-0",
+      "topScoreP": 0.1413,
+      "drivers": [
+        "France is 245 Elo points stronger — the model's lean",
+        "Expected score 2.0-0.7, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GI-france-iraq",
+      "group": "I",
+      "home": "france",
+      "away": "iraq",
+      "pHome": 0.876,
+      "pDraw": 0.1052,
+      "pAway": 0.0189,
+      "expGoalsHome": 2.76,
+      "expGoalsAway": 0.3,
+      "over25": 0.5883,
+      "btts": 0.2477,
+      "topScore": "2-0",
+      "topScoreP": 0.1792,
+      "drivers": [
+        "France is 492 Elo points stronger — the model's lean",
+        "Expected score 2.8-0.3, over-2.5 goals 59%"
+      ]
+    },
+    {
+      "matchId": "GI-france-norway",
+      "group": "I",
+      "home": "france",
+      "away": "norway",
+      "pHome": 0.5684,
+      "pDraw": 0.2583,
+      "pAway": 0.1733,
+      "expGoalsHome": 1.79,
+      "expGoalsAway": 0.91,
+      "over25": 0.5063,
+      "btts": 0.5112,
+      "topScore": "1-1",
+      "topScoreP": 0.1235,
+      "drivers": [
+        "France is 155 Elo points stronger — the model's lean",
+        "Expected score 1.8-0.9, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GI-senegal-iraq",
+      "group": "I",
+      "home": "senegal",
+      "away": "iraq",
+      "pHome": 0.6928,
+      "pDraw": 0.2136,
+      "pAway": 0.0936,
+      "expGoalsHome": 2.06,
+      "expGoalsAway": 0.64,
+      "over25": 0.5062,
+      "btts": 0.4257,
+      "topScore": "2-0",
+      "topScoreP": 0.142,
+      "drivers": [
+        "Senegal is 247 Elo points stronger — the model's lean",
+        "Expected score 2.1-0.6, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GI-senegal-norway",
+      "group": "I",
+      "home": "senegal",
+      "away": "norway",
+      "pHome": 0.2433,
+      "pDraw": 0.2791,
+      "pAway": 0.4777,
+      "expGoalsHome": 1.09,
+      "expGoalsAway": 1.61,
+      "over25": 0.5064,
+      "btts": 0.5468,
+      "topScore": "1-1",
+      "topScoreP": 0.1334,
+      "drivers": [
+        "Norway is 90 Elo points stronger — the model's lean",
+        "Expected score 1.1-1.6, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GI-iraq-norway",
+      "group": "I",
+      "home": "iraq",
+      "away": "norway",
+      "pHome": 0.0394,
+      "pDraw": 0.158,
+      "pAway": 0.8026,
+      "expGoalsHome": 0.39,
+      "expGoalsAway": 2.31,
+      "over25": 0.506,
+      "btts": 0.297,
+      "topScore": "0-2",
+      "topScoreP": 0.1799,
+      "drivers": [
+        "Norway is 337 Elo points stronger — the model's lean",
+        "Expected score 0.4-2.3, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GJ-argentina-algeria",
+      "group": "J",
+      "home": "argentina",
+      "away": "algeria",
+      "pHome": 0.8365,
+      "pDraw": 0.1373,
+      "pAway": 0.0262,
+      "expGoalsHome": 2.4,
+      "expGoalsAway": 0.3,
+      "over25": 0.507,
+      "btts": 0.242,
+      "topScore": "2-0",
+      "topScoreP": 0.1936,
+      "drivers": [
+        "Argentina is 369 Elo points stronger — the model's lean",
+        "Expected score 2.4-0.3, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GJ-argentina-austria",
+      "group": "J",
+      "home": "argentina",
+      "away": "austria",
+      "pHome": 0.7236,
+      "pDraw": 0.1997,
+      "pAway": 0.0768,
+      "expGoalsHome": 2.12,
+      "expGoalsAway": 0.58,
+      "over25": 0.5062,
+      "btts": 0.3961,
+      "topScore": "2-0",
+      "topScoreP": 0.1517,
+      "drivers": [
+        "Argentina is 271 Elo points stronger — the model's lean",
+        "Expected score 2.1-0.6, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GJ-argentina-jordan",
+      "group": "J",
+      "home": "argentina",
+      "away": "jordan",
+      "pHome": 0.8711,
+      "pDraw": 0.1092,
+      "pAway": 0.0197,
+      "expGoalsHome": 2.71,
+      "expGoalsAway": 0.3,
+      "over25": 0.5776,
+      "btts": 0.2471,
+      "topScore": "2-0",
+      "topScoreP": 0.1815,
+      "drivers": [
+        "Argentina is 475 Elo points stronger — the model's lean",
+        "Expected score 2.7-0.3, over-2.5 goals 58%"
+      ]
+    },
+    {
+      "matchId": "GJ-algeria-austria",
+      "group": "J",
+      "home": "algeria",
+      "away": "austria",
+      "pHome": 0.2341,
+      "pDraw": 0.2771,
+      "pAway": 0.4888,
+      "expGoalsHome": 1.07,
+      "expGoalsAway": 1.63,
+      "over25": 0.5063,
+      "btts": 0.5435,
+      "topScore": "1-1",
+      "topScoreP": 0.1325,
+      "drivers": [
+        "Austria is 98 Elo points stronger — the model's lean",
+        "Expected score 1.1-1.6, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GJ-algeria-jordan",
+      "group": "J",
+      "home": "algeria",
+      "away": "jordan",
+      "pHome": 0.5,
+      "pDraw": 0.2749,
+      "pAway": 0.2251,
+      "expGoalsHome": 1.65,
+      "expGoalsAway": 1.05,
+      "over25": 0.5063,
+      "btts": 0.5399,
+      "topScore": "1-1",
+      "topScoreP": 0.1314,
+      "drivers": [
+        "Algeria is 106 Elo points stronger — the model's lean",
+        "Expected score 1.7-1.0, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GJ-austria-jordan",
+      "group": "J",
+      "home": "austria",
+      "away": "jordan",
+      "pHome": 0.6357,
+      "pDraw": 0.2364,
+      "pAway": 0.1278,
+      "expGoalsHome": 1.93,
+      "expGoalsAway": 0.77,
+      "over25": 0.5063,
+      "btts": 0.4711,
+      "topScore": "2-0",
+      "topScoreP": 0.1256,
+      "drivers": [
+        "Austria is 204 Elo points stronger — the model's lean",
+        "Expected score 1.9-0.8, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GK-portugal-dr-congo",
+      "group": "K",
+      "home": "portugal",
+      "away": "dr-congo",
+      "pHome": 0.7509,
+      "pDraw": 0.1862,
+      "pAway": 0.0629,
+      "expGoalsHome": 2.19,
+      "expGoalsAway": 0.51,
+      "over25": 0.5062,
+      "btts": 0.366,
+      "topScore": "2-0",
+      "topScoreP": 0.1608,
+      "drivers": [
+        "Portugal is 293 Elo points stronger — the model's lean",
+        "Expected score 2.2-0.5, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GK-portugal-uzbekistan",
+      "group": "K",
+      "home": "portugal",
+      "away": "uzbekistan",
+      "pHome": 0.721,
+      "pDraw": 0.2008,
+      "pAway": 0.0781,
+      "expGoalsHome": 2.12,
+      "expGoalsAway": 0.58,
+      "over25": 0.5062,
+      "btts": 0.3986,
+      "topScore": "2-0",
+      "topScoreP": 0.1509,
+      "drivers": [
+        "Portugal is 269 Elo points stronger — the model's lean",
+        "Expected score 2.1-0.6, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GK-portugal-colombia",
+      "group": "K",
+      "home": "portugal",
+      "away": "colombia",
+      "pHome": 0.3149,
+      "pDraw": 0.2887,
+      "pAway": 0.3964,
+      "expGoalsHome": 1.26,
+      "expGoalsAway": 1.44,
+      "over25": 0.5064,
+      "btts": 0.5625,
+      "topScore": "1-1",
+      "topScoreP": 0.1378,
+      "drivers": [
+        "Both sides rated within 31 Elo — close to a coin-flip",
+        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Expected score 1.3-1.4, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GK-dr-congo-uzbekistan",
+      "group": "K",
+      "home": "dr-congo",
+      "away": "uzbekistan",
+      "pHome": 0.3238,
+      "pDraw": 0.2892,
+      "pAway": 0.387,
+      "expGoalsHome": 1.28,
+      "expGoalsAway": 1.42,
+      "over25": 0.5064,
+      "btts": 0.5634,
+      "topScore": "1-1",
+      "topScoreP": 0.1381,
+      "drivers": [
+        "Both sides rated within 24 Elo — close to a coin-flip",
+        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Expected score 1.3-1.4, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GK-dr-congo-colombia",
+      "group": "K",
+      "home": "dr-congo",
+      "away": "colombia",
+      "pHome": 0.0457,
+      "pDraw": 0.1665,
+      "pAway": 0.7878,
+      "expGoalsHome": 0.42,
+      "expGoalsAway": 2.28,
+      "over25": 0.5061,
+      "btts": 0.3187,
+      "topScore": "0-2",
+      "topScoreP": 0.1741,
+      "drivers": [
+        "Colombia is 324 Elo points stronger — the model's lean",
+        "Expected score 0.4-2.3, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GK-uzbekistan-colombia",
+      "group": "K",
+      "home": "uzbekistan",
+      "away": "colombia",
+      "pHome": 0.0588,
+      "pDraw": 0.1819,
+      "pAway": 0.7594,
+      "expGoalsHome": 0.49,
+      "expGoalsAway": 2.21,
+      "over25": 0.5061,
+      "btts": 0.3558,
+      "topScore": "0-2",
+      "topScoreP": 0.1638,
+      "drivers": [
+        "Colombia is 300 Elo points stronger — the model's lean",
+        "Expected score 0.5-2.2, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GL-england-croatia",
+      "group": "L",
+      "home": "england",
+      "away": "croatia",
+      "pHome": 0.5947,
+      "pDraw": 0.2504,
+      "pAway": 0.1549,
+      "expGoalsHome": 1.85,
+      "expGoalsAway": 0.85,
+      "over25": 0.5063,
+      "btts": 0.4971,
+      "topScore": "1-1",
+      "topScoreP": 0.1197,
+      "drivers": [
+        "England is 174 Elo points stronger — the model's lean",
+        "Expected score 1.8-0.9, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GL-england-ghana",
+      "group": "L",
+      "home": "england",
+      "away": "ghana",
+      "pHome": 0.8776,
+      "pDraw": 0.1038,
+      "pAway": 0.0186,
+      "expGoalsHome": 2.77,
+      "expGoalsAway": 0.3,
+      "over25": 0.592,
+      "btts": 0.248,
+      "topScore": "2-0",
+      "topScoreP": 0.1784,
+      "drivers": [
+        "England is 498 Elo points stronger — the model's lean",
+        "Expected score 2.8-0.3, over-2.5 goals 59%"
+      ]
+    },
+    {
+      "matchId": "GL-england-panama",
+      "group": "L",
+      "home": "england",
+      "away": "panama",
+      "pHome": 0.8376,
+      "pDraw": 0.1364,
+      "pAway": 0.026,
+      "expGoalsHome": 2.41,
+      "expGoalsAway": 0.3,
+      "over25": 0.5091,
+      "btts": 0.2422,
+      "topScore": "2-0",
+      "topScoreP": 0.1933,
+      "drivers": [
+        "England is 372 Elo points stronger — the model's lean",
+        "Expected score 2.4-0.3, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GL-croatia-ghana",
+      "group": "L",
+      "home": "croatia",
+      "away": "ghana",
+      "pHome": 0.7878,
+      "pDraw": 0.1665,
+      "pAway": 0.0457,
+      "expGoalsHome": 2.28,
+      "expGoalsAway": 0.42,
+      "over25": 0.5061,
+      "btts": 0.3187,
+      "topScore": "2-0",
+      "topScoreP": 0.1741,
+      "drivers": [
+        "Croatia is 324 Elo points stronger — the model's lean",
+        "Expected score 2.3-0.4, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GL-croatia-panama",
+      "group": "L",
+      "home": "croatia",
+      "away": "panama",
+      "pHome": 0.6276,
+      "pDraw": 0.2394,
+      "pAway": 0.1331,
+      "expGoalsHome": 1.92,
+      "expGoalsAway": 0.78,
+      "over25": 0.5063,
+      "btts": 0.4766,
+      "topScore": "2-0",
+      "topScoreP": 0.1233,
+      "drivers": [
+        "Croatia is 198 Elo points stronger — the model's lean",
+        "Expected score 1.9-0.8, over-2.5 goals 51%"
+      ]
+    },
+    {
+      "matchId": "GL-ghana-panama",
+      "group": "L",
+      "home": "ghana",
+      "away": "panama",
+      "pHome": 0.2032,
+      "pDraw": 0.2688,
+      "pAway": 0.528,
+      "expGoalsHome": 0.99,
+      "expGoalsAway": 1.71,
+      "over25": 0.5063,
+      "btts": 0.5295,
+      "topScore": "1-1",
+      "topScoreP": 0.1286,
+      "drivers": [
+        "Panama is 126 Elo points stronger — the model's lean",
+        "Expected score 1.0-1.7, over-2.5 goals 51%"
+      ]
+    }
+  ]
+}
