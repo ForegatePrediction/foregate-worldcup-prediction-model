@@ -8,22 +8,32 @@
 //   GET /tournament[?limit=10]
 import { createServer } from "node:http";
 import { listTeams, predictMatch, tournament } from "./api/core.mjs";
+import { paywallEnabled, paymentRequired, verifyPayment, settlePayment } from "./api/x402.mjs";
 
 const PORT = process.env.PORT || 3000;
+const PAID = new Set(["/predict", "/tournament"]); // /health and /teams stay free
 
-const send = (res, code, body) => {
-  res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" });
+const send = (res, code, body, extraHeaders = {}) => {
+  res.writeHead(code, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*", ...extraHeaders });
   res.end(JSON.stringify(body, null, 2));
 };
 
-const server = createServer((req, res) => {
+const server = createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   const q = url.searchParams;
   try {
+    // x402 pay-per-call gate (only when PAYWALL_ENABLED=true).
+    if (paywallEnabled() && PAID.has(url.pathname)) {
+      const xPayment = req.headers["x-payment"];
+      const v = await verifyPayment(xPayment, url.pathname);
+      if (!v.ok) return send(res, 402, paymentRequired(url.pathname));
+      const settlement = await settlePayment(xPayment, url.pathname);
+      if (settlement) res.setHeader("X-PAYMENT-RESPONSE", settlement);
+    }
     switch (url.pathname) {
       case "/":
       case "/health":
-        return send(res, 200, { status: "ok", service: "foregate-worldcup-prediction", endpoints: ["/teams", "/predict?home=&away=&homeTeam=", "/tournament?limit="] });
+        return send(res, 200, { status: "ok", service: "foregate-worldcup-prediction", paywall: paywallEnabled(), endpoints: ["/teams", "/predict?home=&away=&homeTeam=", "/tournament?limit="] });
       case "/teams":
         return send(res, 200, listTeams());
       case "/predict": {
