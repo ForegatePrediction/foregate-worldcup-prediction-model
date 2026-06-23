@@ -13,7 +13,9 @@
     "simulate": "node simulate.mjs",
     "build": "node build.mjs",
     "predict": "node predict.mjs",
-    "update": "node update-elo.mjs"
+    "update": "node update-elo.mjs",
+    "serve": "node server.mjs",
+    "start": "node server.mjs"
   },
   "keywords": ["world-cup-2026","elo","dixon-coles","poisson","monte-carlo","sports-analytics","predictions","foregate","brier","rps"]
 }

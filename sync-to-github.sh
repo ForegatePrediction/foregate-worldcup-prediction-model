@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # One-command sync of THIS local folder to your GitHub repo.
-# It handles everything automatically: updated files, the 4 deleted files (market.mjs,
-# market-snapshot.json, make-groups.mjs, gen-results.mjs), and the new .github workflow.
-# Run on your own Mac, inside this folder:  bash sync-to-github.sh
+# Handles everything automatically: added, changed and deleted files.
+# Run on your own Mac, inside this folder:
+#   bash sync-to-github.sh
+#   bash sync-to-github.sh "your commit message"   # optional custom message
 set -e
 cd "$(dirname "$0")"
 
@@ -21,7 +22,8 @@ echo "=== Changes to be pushed (raw data stays gitignored) ==="
 git status --short
 echo
 
-git commit -m "Real 48 teams + official FIFA groups; remove market comparison; MIT license; daily Elo update" || echo "(nothing to commit)"
+MSG="${1:-Update ForeGate model and add prediction API (server + serverless)}"
+git commit -m "$MSG" || echo "(nothing to commit)"
 
 # Overwrite GitHub with this local version (local is now the source of truth).
 git push -u origin main --force
