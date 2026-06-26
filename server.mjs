@@ -26,9 +26,9 @@ const server = createServer(async (req, res) => {
     if (paywallEnabled() && PAID.has(url.pathname)) {
       const resourceUrl = `https://${req.headers.host}${url.pathname}`;
       const decoded = decodePaymentSignature(req.headers["payment-signature"]);
-      if (!decoded) return send(res, 402, buildChallenge(resourceUrl));
+      if (!decoded) return send(res, 402, await buildChallenge(resourceUrl));
       const v = await verifyAndSettle(decoded);
-      if (!v.ok) return send(res, 402, buildChallenge(resourceUrl));
+      if (!v.ok) return send(res, 402, await buildChallenge(resourceUrl));
       res.setHeader("PAYMENT-RESPONSE", Buffer.from(JSON.stringify(v.response)).toString("base64"));
     }
     switch (url.pathname) {
