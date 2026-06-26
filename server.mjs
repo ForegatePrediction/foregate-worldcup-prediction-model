@@ -8,7 +8,7 @@
 //   GET /tournament[?limit=10]
 import { createServer } from "node:http";
 import { listTeams, predictMatch, tournament } from "./api/core.mjs";
-import { paywallEnabled, paymentRequired, verifyPayment, settlePayment } from "./api/x402.mjs";
+import { paywallEnabled, buildChallenge, decodePaymentSignature, verifyAndSettle } from "./api/x402.mjs";
 
 const PORT = process.env.PORT || 3000;
 const PAID = new Set(["/predict", "/tournament"]); // /health and /teams stay free
@@ -22,13 +22,14 @@ const server = createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   const q = url.searchParams;
   try {
-    // x402 pay-per-call gate (only when PAYWALL_ENABLED=true).
+    // x402 v2 pay-per-call gate (only when PAYWALL_ENABLED=true).
     if (paywallEnabled() && PAID.has(url.pathname)) {
-      const xPayment = req.headers["x-payment"];
-      const v = await verifyPayment(xPayment, url.pathname);
-      if (!v.ok) return send(res, 402, paymentRequired(url.pathname));
-      const settlement = await settlePayment(xPayment, url.pathname);
-      if (settlement) res.setHeader("X-PAYMENT-RESPONSE", settlement);
+      const resourceUrl = `https://${req.headers.host}${url.pathname}`;
+      const decoded = decodePaymentSignature(req.headers["payment-signature"]);
+      if (!decoded) return send(res, 402, buildChallenge(resourceUrl));
+      const v = await verifyAndSettle(decoded);
+      if (!v.ok) return send(res, 402, buildChallenge(resourceUrl));
+      res.setHeader("PAYMENT-RESPONSE", Buffer.from(JSON.stringify(v.response)).toString("base64"));
     }
     switch (url.pathname) {
       case "/":
