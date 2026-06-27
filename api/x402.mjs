@@ -16,7 +16,7 @@ const P = { supported: "/api/v6/pay/x402/supported", verify: "/api/v6/pay/x402/v
 const CFG = {
   enabled: process.env.PAYWALL_ENABLED === "true",
   network: process.env.PAY_NETWORK || "eip155:196",
-  payTo: process.env.PAY_TO_ADDRESS || "0xb7338d8e84571de0d032b5fd47f31917523d0e6f",
+  payTo: process.env.OKX_X402_PAY_TO || process.env.PAY_TO_ADDRESS || "0xb7338d8e84571de0d032b5fd47f31917523d0e6f",
   amount: process.env.PAY_AMOUNT || "10000",                       // 0.01 USD (6 decimals)
   asset: process.env.PAY_ASSET_CONTRACT || "0x779ded0c9e1022225f8e0630b35a9b54be713736", // USD₮0; USDG alt in .env.example
   eip712Name: process.env.PAY_EIP712_NAME || "USD₮0",
@@ -41,13 +41,20 @@ function okxHeaders(method, requestPath, body = "") {
   return { ...h, "OK-ACCESS-KEY": CFG.apiKey, "OK-ACCESS-SIGN": sign, "OK-ACCESS-PASSPHRASE": CFG.passphrase, "OK-ACCESS-TIMESTAMP": ts };
 }
 
-async function okxGet(path) {
-  const r = await fetch(`${BASE}${path}`, { headers: okxHeaders("GET", path, "") });
+// fetch with a hard timeout so a slow/hung OKX call never blocks the response.
+async function fetchT(url, opts = {}, ms = 10000) {
+  const c = new AbortController();
+  const t = setTimeout(() => c.abort(), ms);
+  try { return await fetch(url, { ...opts, signal: c.signal }); }
+  finally { clearTimeout(t); }
+}
+async function okxGet(path, ms = 10000) {
+  const r = await fetchT(`${BASE}${path}`, { headers: okxHeaders("GET", path, "") }, ms);
   return { ok: r.ok, json: await r.json().catch(() => ({})) };
 }
-async function okxPost(path, payloadObj) {
+async function okxPost(path, payloadObj, ms = 25000) {
   const body = JSON.stringify(payloadObj);
-  const r = await fetch(`${BASE}${path}`, { method: "POST", headers: okxHeaders("POST", path, body), body });
+  const r = await fetchT(`${BASE}${path}`, { method: "POST", headers: okxHeaders("POST", path, body), body }, ms);
   return { ok: r.ok, json: await r.json().catch(() => ({})) };
 }
 
@@ -57,7 +64,7 @@ async function getFacilitatorAddress() {
   if (CFG.facilitatorOverride) return CFG.facilitatorOverride;
   if (_fac && Date.now() - _facAt < 3600e3) return _fac;
   try {
-    const { json } = await okxGet(P.supported);
+    const { json } = await okxGet(P.supported, 6000);
     const kinds = json.kinds || (json.data && json.data.kinds) || [];
     for (const k of kinds) { const f = k && k.extra && k.extra.facilitatorAddress; if (f) { _fac = f; _facAt = Date.now(); return f; } }
   } catch { /* fall through */ }
