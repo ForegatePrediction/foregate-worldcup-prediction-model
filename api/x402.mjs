@@ -116,14 +116,16 @@ function sane(decoded) {
 
 // Verify then settle via OKX facilitator. Returns { ok, response }.
 export async function verifyAndSettle(decoded) {
-  if (!sane(decoded)) return { ok: false, reason: "payload failed local checks" };
+  if (!sane(decoded)) return { ok: false, reason: "payload failed local checks (payTo/network/asset/amount mismatch)" };
   try {
     const ver = await okxPost(P.verify, decoded);
     const v = ver.json || {};
-    if (!(ver.ok && (v.valid === true || v.isValid === true || v.status === "valid"))) return { ok: false, reason: "verify failed", info: v };
+    console.log(`[x402] OKX /verify httpOk=${ver.ok} body=${JSON.stringify(v).slice(0, 400)}`);
+    if (!(ver.ok && (v.valid === true || v.isValid === true || v.status === "valid"))) return { ok: false, reason: `verify rejected (httpOk=${ver.ok})`, info: v };
 
     const set = await okxPost(P.settle, decoded);
     const s = set.json || {};
+    console.log(`[x402] OKX /settle httpOk=${set.ok} body=${JSON.stringify(s).slice(0, 400)}`);
     const ok = set.ok && (s.status === "settled" || s.status === "success");
     return {
       ok,
