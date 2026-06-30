@@ -25,10 +25,20 @@ const server = createServer(async (req, res) => {
     // x402 v2 pay-per-call gate (only when PAYWALL_ENABLED=true).
     if (paywallEnabled() && PAID.has(url.pathname)) {
       const resourceUrl = `https://${req.headers.host}${url.pathname}`;
-      const decoded = decodePaymentSignature(req.headers["payment-signature"]);
-      if (!decoded) return send(res, 402, await buildChallenge(resourceUrl));
+      // Read the payment header case-insensitively + accept alternate names. (Node lowercases
+      // header keys, but we scan defensively in case a proxy forwards a different casing/name.)
+      const h = req.headers;
+      const rawSig = h["payment-signature"] || h["x-payment"] || h["x-payment-signature"] ||
+        (() => { const k = Object.keys(h).find((n) => n.toLowerCase() === "payment-signature" || n.toLowerCase() === "x-payment"); return k ? h[k] : undefined; })();
+      // Diagnostic (visible in Render logs): did the header actually reach the app?
+      console.log(`[x402] ${req.method} ${url.pathname} sigPresent=${!!rawSig} sigLen=${rawSig ? String(rawSig).length : 0} headers=[${Object.keys(h).join(", ")}]`);
+
+      const ch = await buildChallenge(resourceUrl);
+      if (!rawSig) { ch.error = "PAYMENT-SIGNATURE header is required"; return send(res, 402, ch); }
+      const decoded = decodePaymentSignature(rawSig);
+      if (!decoded) { ch.error = "PAYMENT-SIGNATURE received but could not be decoded (expected base64-encoded JSON)"; return send(res, 402, ch); }
       const v = await verifyAndSettle(decoded);
-      if (!v.ok) return send(res, 402, await buildChallenge(resourceUrl));
+      if (!v.ok) { ch.error = `payment present but verify/settle failed: ${v.reason || "unknown"}`; return send(res, 402, ch); }
       res.setHeader("PAYMENT-RESPONSE", Buffer.from(JSON.stringify(v.response)).toString("base64"));
     }
     switch (url.pathname) {

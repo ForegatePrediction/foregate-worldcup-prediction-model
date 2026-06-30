@@ -88,8 +88,20 @@ export async function buildChallenge(resourceUrl, description = "World Cup 2026 
 
 export function decodePaymentSignature(headerVal) {
   if (!headerVal) return null;
-  try { return JSON.parse(Buffer.from(headerVal, "base64").toString("utf8")); }
-  catch { try { return JSON.parse(headerVal); } catch { return null; } }
+  if (typeof headerVal === "object") return headerVal;              // already parsed
+  let s = String(headerVal).trim();
+  if (Array.isArray(headerVal)) s = String(headerVal[0] || "").trim();
+  // 1) raw JSON
+  if (s.startsWith("{")) { try { return JSON.parse(s); } catch { /* next */ } }
+  // 2) base64 / base64url JSON
+  try {
+    const norm = s.replace(/-/g, "+").replace(/_/g, "/");
+    const txt = Buffer.from(norm, "base64").toString("utf8");
+    if (txt.includes("{")) return JSON.parse(txt.slice(txt.indexOf("{")));
+  } catch { /* next */ }
+  // 3) URL-encoded JSON
+  try { return JSON.parse(decodeURIComponent(s)); } catch { /* give up */ }
+  return null;
 }
 
 function sane(decoded) {
