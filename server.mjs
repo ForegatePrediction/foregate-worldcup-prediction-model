@@ -38,7 +38,11 @@ const server = createServer(async (req, res) => {
       const decoded = decodePaymentSignature(rawSig);
       if (!decoded) { ch.error = "PAYMENT-SIGNATURE received but could not be decoded (expected base64-encoded JSON)"; return send(res, 402, ch); }
       const v = await verifyAndSettle(decoded);
-      if (!v.ok) { ch.error = `payment present but verify/settle failed: ${v.reason || "unknown"}`; return send(res, 402, ch); }
+      if (!v.ok) {
+        ch.error = `payment present but verify/settle failed: ${v.reason || "unknown"}`;
+        ch.x402Debug = { reason: v.reason || null, okxResponse: v.info || null }; // OKX's exact reason, for diagnosis
+        return send(res, 402, ch);
+      }
       res.setHeader("PAYMENT-RESPONSE", Buffer.from(JSON.stringify(v.response)).toString("base64"));
     }
     switch (url.pathname) {

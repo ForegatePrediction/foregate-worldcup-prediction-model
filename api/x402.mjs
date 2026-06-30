@@ -76,7 +76,7 @@ async function getFacilitatorAddress() {
 export async function buildChallenge(resourceUrl, description = "World Cup 2026 Predictions") {
   const facilitatorAddress = await getFacilitatorAddress();
   const baseExtra = { name: CFG.eip712Name, version: CFG.eip712Version, assetTransferMethod: "permit2", decimals: CFG.decimals, symbol: CFG.symbol };
-  const common = { network: CFG.network, amount: CFG.amount, payTo: CFG.payTo, asset: CFG.asset, decimals: CFG.decimals, maxTimeoutSeconds: 300 };
+  const common = { network: CFG.network, amount: CFG.amount, payTo: CFG.payTo, asset: CFG.asset, decimals: CFG.decimals, symbol: CFG.symbol, maxTimeoutSeconds: 300 };
   return {
     x402Version: 2,
     error: "PAYMENT-SIGNATURE header is required",
@@ -131,6 +131,8 @@ export async function verifyAndSettle(decoded) {
     const ok = set.ok && (s.status === "settled" || s.status === "success");
     return {
       ok,
+      reason: ok ? undefined : `settle rejected (httpOk=${set.ok})`,
+      info: ok ? undefined : s,
       response: {
         status: s.status || (ok ? "settled" : "failed"),
         transaction: s.transaction || s.txHash || "",
