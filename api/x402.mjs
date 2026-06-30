@@ -75,15 +75,17 @@ async function getFacilitatorAddress() {
 
 export async function buildChallenge(resourceUrl, description = "World Cup 2026 Predictions") {
   const facilitatorAddress = await getFacilitatorAddress();
-  const baseExtra = { name: CFG.eip712Name, version: CFG.eip712Version, assetTransferMethod: "permit2", decimals: CFG.decimals, symbol: CFG.symbol };
+  const extraCommon = { name: CFG.eip712Name, version: CFG.eip712Version, decimals: CFG.decimals, symbol: CFG.symbol };
   const common = { network: CFG.network, amount: CFG.amount, payTo: CFG.payTo, asset: CFG.asset, decimals: CFG.decimals, symbol: CFG.symbol, maxTimeoutSeconds: 300 };
   return {
     x402Version: 2,
     error: "PAYMENT-SIGNATURE header is required",
     resource: { url: resourceUrl, description, mimeType: "application/json" },
     accepts: [
-      { scheme: "upto", ...common, extra: { ...baseExtra, facilitatorAddress } },
-      { scheme: "exact", ...common, extra: { ...baseExtra } },
+      // exact = EIP-3009 transferWithAuthorization (no Permit2 approval needed; single fixed-price call)
+      { scheme: "exact", ...common, extra: { ...extraCommon, assetTransferMethod: "eip3009" } },
+      // upto = Permit2 (cap authorization / metered; needs facilitatorAddress)
+      { scheme: "upto", ...common, extra: { ...extraCommon, assetTransferMethod: "permit2", facilitatorAddress } },
     ],
   };
 }
