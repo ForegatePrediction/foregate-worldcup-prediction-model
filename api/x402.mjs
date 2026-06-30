@@ -18,6 +18,8 @@ const CFG = {
   network: process.env.PAY_NETWORK || "eip155:196",
   payTo: process.env.OKX_X402_PAY_TO || process.env.PAY_TO_ADDRESS || "0xb7338d8e84571de0d032b5fd47f31917523d0e6f",
   amount: process.env.PAY_AMOUNT || "10000",                       // 0.01 USD (6 decimals)
+  decimals: parseInt(process.env.PAY_ASSET_DECIMALS || "6", 10),   // token decimals (explicit, so resolvers don't guess)
+  symbol: process.env.PAY_ASSET_SYMBOL || "USDT",                  // human symbol hint for task systems
   asset: process.env.PAY_ASSET_CONTRACT || "0x779ded0c9e1022225f8e0630b35a9b54be713736", // USD₮0; USDG alt in .env.example
   eip712Name: process.env.PAY_EIP712_NAME || "USD₮0",
   eip712Version: process.env.PAY_EIP712_VERSION || "2",
@@ -73,8 +75,8 @@ async function getFacilitatorAddress() {
 
 export async function buildChallenge(resourceUrl, description = "World Cup 2026 Predictions") {
   const facilitatorAddress = await getFacilitatorAddress();
-  const baseExtra = { name: CFG.eip712Name, version: CFG.eip712Version, assetTransferMethod: "permit2" };
-  const common = { network: CFG.network, amount: CFG.amount, payTo: CFG.payTo, asset: CFG.asset, maxTimeoutSeconds: 300 };
+  const baseExtra = { name: CFG.eip712Name, version: CFG.eip712Version, assetTransferMethod: "permit2", decimals: CFG.decimals, symbol: CFG.symbol };
+  const common = { network: CFG.network, amount: CFG.amount, payTo: CFG.payTo, asset: CFG.asset, decimals: CFG.decimals, maxTimeoutSeconds: 300 };
   return {
     x402Version: 2,
     error: "PAYMENT-SIGNATURE header is required",
