@@ -117,27 +117,36 @@ function sane(decoded) {
 }
 
 // Verify then settle via OKX facilitator. Returns { ok, response }.
+// OKX expects the standard x402 wrapper: { x402Version, paymentPayload, paymentRequirements }.
+// Success is signalled by code "0" (verify: data.isValid === true).
 export async function verifyAndSettle(decoded) {
   if (!sane(decoded)) return { ok: false, reason: "payload failed local checks (payTo/network/asset/amount mismatch)" };
+  const reqBody = {
+    x402Version: decoded.x402Version || 2,
+    paymentPayload: decoded,            // the full decoded PAYMENT-SIGNATURE object (not base64)
+    paymentRequirements: decoded.accepted, // the single accepts entry the buyer chose
+  };
   try {
-    const ver = await okxPost(P.verify, decoded);
+    const ver = await okxPost(P.verify, reqBody);
     const v = ver.json || {};
-    console.log(`[x402] OKX /verify httpOk=${ver.ok} body=${JSON.stringify(v).slice(0, 400)}`);
-    if (!(ver.ok && (v.valid === true || v.isValid === true || v.status === "valid"))) return { ok: false, reason: `verify rejected (httpOk=${ver.ok})`, info: v };
+    console.log(`[x402] OKX /verify httpOk=${ver.ok} body=${JSON.stringify(v).slice(0, 500)}`);
+    const verified = ver.ok && String(v.code) === "0" && v.data && (v.data.isValid === true || v.data.valid === true);
+    if (!verified) return { ok: false, reason: `verify rejected (code=${v.code ?? "?"}${v.msg ? " " + v.msg : ""})`, info: v };
 
-    const set = await okxPost(P.settle, decoded);
+    const set = await okxPost(P.settle, { ...reqBody, syncSettle: true });
     const s = set.json || {};
-    console.log(`[x402] OKX /settle httpOk=${set.ok} body=${JSON.stringify(s).slice(0, 400)}`);
-    const ok = set.ok && (s.status === "settled" || s.status === "success");
+    console.log(`[x402] OKX /settle httpOk=${set.ok} body=${JSON.stringify(s).slice(0, 500)}`);
+    const settled = set.ok && String(s.code) === "0";
+    const d = s.data || {};
     return {
-      ok,
-      reason: ok ? undefined : `settle rejected (httpOk=${set.ok})`,
-      info: ok ? undefined : s,
+      ok: settled,
+      reason: settled ? undefined : `settle rejected (code=${s.code ?? "?"}${s.msg ? " " + s.msg : ""})`,
+      info: settled ? undefined : s,
       response: {
-        status: s.status || (ok ? "settled" : "failed"),
-        transaction: s.transaction || s.txHash || "",
-        amount: decoded.accepted.amount,
-        payer: (decoded.payload.permit2Authorization && decoded.payload.permit2Authorization.from) || s.payer || "",
+        status: settled ? "settled" : "failed",
+        transaction: d.transaction || d.txHash || d.txnHash || d.transactionHash || "",
+        amount: decoded.accepted && decoded.accepted.amount,
+        payer: (decoded.payload && decoded.payload.permit2Authorization && decoded.payload.permit2Authorization.from) || d.payer || "",
       },
     };
   } catch (e) {
