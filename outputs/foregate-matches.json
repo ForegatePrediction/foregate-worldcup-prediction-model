@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T16:17:46.706Z",
+  "generatedAt": "2026-07-03T15:59:35.775Z",
   "dataIsSynthetic": false,
   "matches": [
     {
@@ -165,19 +165,19 @@
       "group": "B",
       "home": "canada",
       "away": "switzerland",
-      "pHome": 0.244,
-      "pDraw": 0.2721,
-      "pAway": 0.4839,
-      "expGoalsHome": 1.14,
-      "expGoalsAway": 1.67,
+      "pHome": 0.2121,
+      "pDraw": 0.2643,
+      "pAway": 0.5236,
+      "expGoalsHome": 1.05,
+      "expGoalsAway": 1.75,
       "over25": 0.5322,
-      "btts": 0.5661,
+      "btts": 0.5529,
       "topScore": "1-1",
-      "topScoreP": 0.1295,
+      "topScoreP": 0.126,
       "drivers": [
-        "Switzerland is 75 Elo points stronger — the model's lean",
+        "Switzerland is 104 Elo points stronger — the model's lean",
         "Canada gets the host-nation venue bonus (+75 Elo)",
-        "Expected score 1.1-1.7, over-2.5 goals 53%"
+        "Expected score 1.1-1.8, over-2.5 goals 53%"
       ]
     },
     {
@@ -204,18 +204,18 @@
       "group": "B",
       "home": "bosnia-and-herzegovina",
       "away": "switzerland",
-      "pHome": 0.0537,
-      "pDraw": 0.1762,
-      "pAway": 0.7702,
-      "expGoalsHome": 0.47,
-      "expGoalsAway": 2.23,
-      "over25": 0.5061,
-      "btts": 0.3423,
+      "pHome": 0.0389,
+      "pDraw": 0.1574,
+      "pAway": 0.8038,
+      "expGoalsHome": 0.38,
+      "expGoalsAway": 2.32,
+      "over25": 0.506,
+      "btts": 0.2953,
       "topScore": "0-2",
-      "topScoreP": 0.1676,
+      "topScoreP": 0.1803,
       "drivers": [
-        "Switzerland is 309 Elo points stronger — the model's lean",
-        "Expected score 0.5-2.2, over-2.5 goals 51%"
+        "Switzerland is 338 Elo points stronger — the model's lean",
+        "Expected score 0.4-2.3, over-2.5 goals 51%"
       ]
     },
     {
@@ -223,18 +223,18 @@
       "group": "B",
       "home": "qatar",
       "away": "switzerland",
-      "pHome": 0.0183,
-      "pDraw": 0.1027,
-      "pAway": 0.879,
+      "pHome": 0.017,
+      "pDraw": 0.0964,
+      "pAway": 0.8866,
       "expGoalsHome": 0.3,
-      "expGoalsAway": 2.79,
-      "over25": 0.5951,
-      "btts": 0.2482,
+      "expGoalsAway": 2.87,
+      "over25": 0.6127,
+      "btts": 0.2492,
       "topScore": "0-2",
-      "topScoreP": 0.1777,
+      "topScoreP": 0.1735,
       "drivers": [
-        "Switzerland is 503 Elo points stronger — the model's lean",
-        "Expected score 0.3-2.8, over-2.5 goals 60%"
+        "Switzerland is 532 Elo points stronger — the model's lean",
+        "Expected score 0.3-2.9, over-2.5 goals 61%"
       ]
     },
     {
@@ -823,18 +823,18 @@
       "group": "H",
       "home": "spain",
       "away": "cape-verde",
-      "pHome": 0.884,
-      "pDraw": 0.0985,
-      "pAway": 0.0174,
-      "expGoalsHome": 2.84,
+      "pHome": 0.8879,
+      "pDraw": 0.0954,
+      "pAway": 0.0167,
+      "expGoalsHome": 2.88,
       "expGoalsAway": 0.3,
-      "over25": 0.6067,
-      "btts": 0.2488,
+      "over25": 0.6157,
+      "btts": 0.2493,
       "topScore": "2-0",
-      "topScoreP": 0.1749,
+      "topScoreP": 0.1727,
       "drivers": [
-        "Spain is 522 Elo points stronger — the model's lean",
-        "Expected score 2.8-0.3, over-2.5 goals 61%"
+        "Spain is 537 Elo points stronger — the model's lean",
+        "Expected score 2.9-0.3, over-2.5 goals 62%"
       ]
     },
     {
@@ -842,18 +842,18 @@
       "group": "H",
       "home": "spain",
       "away": "saudi-arabia",
-      "pHome": 0.8906,
-      "pDraw": 0.0931,
-      "pAway": 0.0163,
-      "expGoalsHome": 2.92,
+      "pHome": 0.8943,
+      "pDraw": 0.0901,
+      "pAway": 0.0156,
+      "expGoalsHome": 2.96,
       "expGoalsAway": 0.3,
-      "over25": 0.6222,
-      "btts": 0.2497,
+      "over25": 0.6309,
+      "btts": 0.2501,
       "topScore": "2-0",
-      "topScoreP": 0.1711,
+      "topScoreP": 0.1688,
       "drivers": [
-        "Spain is 548 Elo points stronger — the model's lean",
-        "Expected score 2.9-0.3, over-2.5 goals 62%"
+        "Spain is 563 Elo points stronger — the model's lean",
+        "Expected score 3.0-0.3, over-2.5 goals 63%"
       ]
     },
     {
@@ -861,18 +861,18 @@
       "group": "H",
       "home": "spain",
       "away": "uruguay",
-      "pHome": 0.763,
-      "pDraw": 0.18,
-      "pAway": 0.057,
-      "expGoalsHome": 2.22,
-      "expGoalsAway": 0.48,
+      "pHome": 0.7808,
+      "pDraw": 0.1704,
+      "pAway": 0.0488,
+      "expGoalsHome": 2.26,
+      "expGoalsAway": 0.44,
       "over25": 0.5061,
-      "btts": 0.3514,
+      "btts": 0.3283,
       "topScore": "2-0",
-      "topScoreP": 0.1651,
+      "topScoreP": 0.1715,
       "drivers": [
-        "Spain is 303 Elo points stronger — the model's lean",
-        "Expected score 2.2-0.5, over-2.5 goals 51%"
+        "Spain is 318 Elo points stronger — the model's lean",
+        "Expected score 2.3-0.4, over-2.5 goals 51%"
       ]
     },
     {
@@ -1052,18 +1052,18 @@
       "group": "J",
       "home": "argentina",
       "away": "algeria",
-      "pHome": 0.8312,
-      "pDraw": 0.1407,
-      "pAway": 0.028,
-      "expGoalsHome": 2.39,
-      "expGoalsAway": 0.31,
-      "over25": 0.506,
-      "btts": 0.2505,
+      "pHome": 0.8447,
+      "pDraw": 0.1306,
+      "pAway": 0.0246,
+      "expGoalsHome": 2.47,
+      "expGoalsAway": 0.3,
+      "over25": 0.5229,
+      "btts": 0.2433,
       "topScore": "2-0",
-      "topScoreP": 0.1916,
+      "topScoreP": 0.1913,
       "drivers": [
-        "Argentina is 363 Elo points stronger — the model's lean",
-        "Expected score 2.4-0.3, over-2.5 goals 51%"
+        "Argentina is 392 Elo points stronger — the model's lean",
+        "Expected score 2.5-0.3, over-2.5 goals 52%"
       ]
     },
     {
@@ -1071,18 +1071,18 @@
       "group": "J",
       "home": "argentina",
       "away": "austria",
-      "pHome": 0.7737,
-      "pDraw": 0.1742,
-      "pAway": 0.052,
-      "expGoalsHome": 2.24,
-      "expGoalsAway": 0.46,
+      "pHome": 0.7912,
+      "pDraw": 0.1646,
+      "pAway": 0.0442,
+      "expGoalsHome": 2.28,
+      "expGoalsAway": 0.42,
       "over25": 0.5061,
-      "btts": 0.3377,
+      "btts": 0.3138,
       "topScore": "2-0",
-      "topScoreP": 0.1689,
+      "topScoreP": 0.1754,
       "drivers": [
-        "Argentina is 312 Elo points stronger — the model's lean",
-        "Expected score 2.2-0.5, over-2.5 goals 51%"
+        "Argentina is 327 Elo points stronger — the model's lean",
+        "Expected score 2.3-0.4, over-2.5 goals 51%"
       ]
     },
     {
@@ -1109,18 +1109,18 @@
       "group": "J",
       "home": "algeria",
       "away": "austria",
-      "pHome": 0.2898,
-      "pDraw": 0.2865,
-      "pAway": 0.4237,
-      "expGoalsHome": 1.2,
-      "expGoalsAway": 1.5,
+      "pHome": 0.2728,
+      "pDraw": 0.2843,
+      "pAway": 0.4429,
+      "expGoalsHome": 1.16,
+      "expGoalsAway": 1.54,
       "over25": 0.5064,
-      "btts": 0.5589,
+      "btts": 0.5554,
       "topScore": "1-1",
-      "topScoreP": 0.1368,
+      "topScoreP": 0.1358,
       "drivers": [
-        "Both sides rated within 51 Elo — close to a coin-flip",
-        "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
+        "Austria is 65 Elo points stronger — the model's lean",
+        "Tight rating + low-scoring tendency -> elevated draw chance (28%)",
         "Expected score 1.2-1.5, over-2.5 goals 51%"
       ]
     },
@@ -1129,18 +1129,18 @@
       "group": "J",
       "home": "algeria",
       "away": "jordan",
-      "pHome": 0.5712,
-      "pDraw": 0.2575,
-      "pAway": 0.1713,
-      "expGoalsHome": 1.8,
-      "expGoalsAway": 0.9,
+      "pHome": 0.5308,
+      "pDraw": 0.2682,
+      "pAway": 0.2011,
+      "expGoalsHome": 1.72,
+      "expGoalsAway": 0.98,
       "over25": 0.5063,
-      "btts": 0.5098,
+      "btts": 0.5284,
       "topScore": "1-1",
-      "topScoreP": 0.1231,
+      "topScoreP": 0.1283,
       "drivers": [
-        "Algeria is 157 Elo points stronger — the model's lean",
-        "Expected score 1.8-0.9, over-2.5 goals 51%"
+        "Algeria is 128 Elo points stronger — the model's lean",
+        "Expected score 1.7-1.0, over-2.5 goals 51%"
       ]
     },
     {
@@ -1148,17 +1148,17 @@
       "group": "J",
       "home": "austria",
       "away": "jordan",
-      "pHome": 0.6411,
-      "pDraw": 0.2344,
-      "pAway": 0.1244,
-      "expGoalsHome": 1.94,
-      "expGoalsAway": 0.76,
+      "pHome": 0.6208,
+      "pDraw": 0.2418,
+      "pAway": 0.1375,
+      "expGoalsHome": 1.9,
+      "expGoalsAway": 0.8,
       "over25": 0.5063,
-      "btts": 0.4673,
+      "btts": 0.4811,
       "topScore": "2-0",
-      "topScoreP": 0.1271,
+      "topScoreP": 0.1215,
       "drivers": [
-        "Austria is 208 Elo points stronger — the model's lean",
+        "Austria is 193 Elo points stronger — the model's lean",
         "Expected score 1.9-0.8, over-2.5 goals 51%"
       ]
     },
@@ -1167,17 +1167,17 @@
       "group": "K",
       "home": "portugal",
       "away": "dr-congo",
-      "pHome": 0.7423,
-      "pDraw": 0.1906,
-      "pAway": 0.0672,
-      "expGoalsHome": 2.17,
-      "expGoalsAway": 0.53,
-      "over25": 0.5062,
-      "btts": 0.3758,
+      "pHome": 0.7702,
+      "pDraw": 0.1762,
+      "pAway": 0.0537,
+      "expGoalsHome": 2.23,
+      "expGoalsAway": 0.47,
+      "over25": 0.5061,
+      "btts": 0.3423,
       "topScore": "2-0",
-      "topScoreP": 0.1579,
+      "topScoreP": 0.1676,
       "drivers": [
-        "Portugal is 286 Elo points stronger — the model's lean",
+        "Portugal is 309 Elo points stronger — the model's lean",
         "Expected score 2.2-0.5, over-2.5 goals 51%"
       ]
     },
@@ -1186,18 +1186,18 @@
       "group": "K",
       "home": "portugal",
       "away": "uzbekistan",
-      "pHome": 0.8269,
-      "pDraw": 0.1434,
-      "pAway": 0.0297,
-      "expGoalsHome": 2.38,
-      "expGoalsAway": 0.32,
-      "over25": 0.506,
-      "btts": 0.2579,
+      "pHome": 0.8412,
+      "pDraw": 0.1335,
+      "pAway": 0.0253,
+      "expGoalsHome": 2.44,
+      "expGoalsAway": 0.3,
+      "over25": 0.516,
+      "btts": 0.2427,
       "topScore": "2-0",
-      "topScoreP": 0.1898,
+      "topScoreP": 0.1923,
       "drivers": [
-        "Portugal is 359 Elo points stronger — the model's lean",
-        "Expected score 2.4-0.3, over-2.5 goals 51%"
+        "Portugal is 382 Elo points stronger — the model's lean",
+        "Expected score 2.4-0.3, over-2.5 goals 52%"
       ]
     },
     {
@@ -1205,19 +1205,19 @@
       "group": "K",
       "home": "portugal",
       "away": "colombia",
-      "pHome": 0.3367,
-      "pDraw": 0.2898,
-      "pAway": 0.3735,
-      "expGoalsHome": 1.31,
-      "expGoalsAway": 1.39,
+      "pHome": 0.3669,
+      "pDraw": 0.2899,
+      "pAway": 0.3432,
+      "expGoalsHome": 1.38,
+      "expGoalsAway": 1.32,
       "over25": 0.5064,
-      "btts": 0.5642,
+      "btts": 0.5645,
       "topScore": "1-1",
-      "topScoreP": 0.1383,
+      "topScoreP": 0.1384,
       "drivers": [
-        "Both sides rated within 14 Elo — close to a coin-flip",
+        "Both sides rated within 9 Elo — close to a coin-flip",
         "Tight rating + low-scoring tendency -> elevated draw chance (29%)",
-        "Expected score 1.3-1.4, over-2.5 goals 51%"
+        "Expected score 1.4-1.3, over-2.5 goals 51%"
       ]
     },
     {
@@ -1283,17 +1283,17 @@
       "group": "L",
       "home": "england",
       "away": "croatia",
-      "pHome": 0.5489,
-      "pDraw": 0.2636,
-      "pAway": 0.1875,
-      "expGoalsHome": 1.75,
-      "expGoalsAway": 0.95,
+      "pHome": 0.5809,
+      "pDraw": 0.2547,
+      "pAway": 0.1645,
+      "expGoalsHome": 1.82,
+      "expGoalsAway": 0.88,
       "over25": 0.5063,
-      "btts": 0.5206,
+      "btts": 0.5048,
       "topScore": "1-1",
-      "topScoreP": 0.1261,
+      "topScoreP": 0.1217,
       "drivers": [
-        "England is 141 Elo points stronger — the model's lean",
+        "England is 164 Elo points stronger — the model's lean",
         "Expected score 1.8-0.9, over-2.5 goals 51%"
       ]
     },
@@ -1340,18 +1340,18 @@
       "group": "L",
       "home": "croatia",
       "away": "ghana",
-      "pHome": 0.7947,
-      "pDraw": 0.1626,
-      "pAway": 0.0427,
-      "expGoalsHome": 2.29,
-      "expGoalsAway": 0.41,
+      "pHome": 0.7678,
+      "pDraw": 0.1774,
+      "pAway": 0.0548,
+      "expGoalsHome": 2.23,
+      "expGoalsAway": 0.47,
       "over25": 0.5061,
-      "btts": 0.3088,
+      "btts": 0.3453,
       "topScore": "2-0",
-      "topScoreP": 0.1768,
+      "topScoreP": 0.1668,
       "drivers": [
-        "Croatia is 330 Elo points stronger — the model's lean",
-        "Expected score 2.3-0.4, over-2.5 goals 51%"
+        "Croatia is 307 Elo points stronger — the model's lean",
+        "Expected score 2.2-0.5, over-2.5 goals 51%"
       ]
     },
     {
@@ -1359,18 +1359,18 @@
       "group": "L",
       "home": "croatia",
       "away": "panama",
-      "pHome": 0.6928,
-      "pDraw": 0.2136,
-      "pAway": 0.0936,
-      "expGoalsHome": 2.06,
-      "expGoalsAway": 0.64,
-      "over25": 0.5062,
-      "btts": 0.4257,
+      "pHome": 0.6626,
+      "pDraw": 0.2262,
+      "pAway": 0.1112,
+      "expGoalsHome": 1.99,
+      "expGoalsAway": 0.71,
+      "over25": 0.5063,
+      "btts": 0.4512,
       "topScore": "2-0",
-      "topScoreP": 0.142,
+      "topScoreP": 0.1331,
       "drivers": [
-        "Croatia is 247 Elo points stronger — the model's lean",
-        "Expected score 2.1-0.6, over-2.5 goals 51%"
+        "Croatia is 224 Elo points stronger — the model's lean",
+        "Expected score 2.0-0.7, over-2.5 goals 51%"
       ]
     },
     {
