@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-09T17:25:35.581Z",
+  "generatedAt": "2026-07-10T16:37:41.480Z",
   "source": "World Football Elo — https://www.eloratings.net",
-  "snapshotDate": "2026-07-09",
+  "snapshotDate": "2026-07-10",
   "dataIsSynthetic": false,
   "method": "Real World Football Elo snapshot used directly (already calibrated on all real internationals).",
   "ratings": {
@@ -14,7 +14,7 @@
     "qatar": 1411,
     "switzerland": 1949,
     "brazil": 1993,
-    "morocco": 1921,
+    "morocco": 1901,
     "haiti": 1517,
     "scotland": 1745,
     "usa": 1747,
@@ -37,7 +37,7 @@
     "cape-verde": 1619,
     "saudi-arabia": 1596,
     "uruguay": 1841,
-    "france": 2143,
+    "france": 2163,
     "senegal": 1816,
     "iraq": 1561,
     "norway": 1972,

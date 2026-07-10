@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T17:25:36.542Z",
+  "generatedAt": "2026-07-10T16:37:42.442Z",
   "dataIsSynthetic": false,
   "matches": [
     {
@@ -242,18 +242,17 @@
       "group": "C",
       "home": "brazil",
       "away": "morocco",
-      "pHome": 0.4526,
-      "pDraw": 0.283,
-      "pAway": 0.2644,
-      "expGoalsHome": 1.56,
-      "expGoalsAway": 1.14,
+      "pHome": 0.4804,
+      "pDraw": 0.2786,
+      "pAway": 0.241,
+      "expGoalsHome": 1.61,
+      "expGoalsAway": 1.09,
       "over25": 0.5064,
-      "btts": 0.5533,
+      "btts": 0.546,
       "topScore": "1-1",
-      "topScoreP": 0.1352,
+      "topScoreP": 0.1332,
       "drivers": [
-        "Brazil is 72 Elo points stronger — the model's lean",
-        "Tight rating + low-scoring tendency -> elevated draw chance (28%)",
+        "Brazil is 92 Elo points stronger — the model's lean",
         "Expected score 1.6-1.1, over-2.5 goals 51%"
       ]
     },
@@ -300,18 +299,18 @@
       "group": "C",
       "home": "morocco",
       "away": "haiti",
-      "pHome": 0.8489,
-      "pDraw": 0.1273,
-      "pAway": 0.0238,
-      "expGoalsHome": 2.5,
+      "pHome": 0.8419,
+      "pDraw": 0.1329,
+      "pAway": 0.0251,
+      "expGoalsHome": 2.45,
       "expGoalsAway": 0.3,
-      "over25": 0.531,
-      "btts": 0.2439,
+      "over25": 0.5174,
+      "btts": 0.2429,
       "topScore": "2-0",
-      "topScoreP": 0.1901,
+      "topScoreP": 0.1922,
       "drivers": [
-        "Morocco is 404 Elo points stronger — the model's lean",
-        "Expected score 2.5-0.3, over-2.5 goals 53%"
+        "Morocco is 384 Elo points stronger — the model's lean",
+        "Expected score 2.4-0.3, over-2.5 goals 52%"
       ]
     },
     {
@@ -319,18 +318,18 @@
       "group": "C",
       "home": "morocco",
       "away": "scotland",
-      "pHome": 0.5975,
-      "pDraw": 0.2495,
-      "pAway": 0.153,
-      "expGoalsHome": 1.85,
-      "expGoalsAway": 0.85,
+      "pHome": 0.5698,
+      "pDraw": 0.2579,
+      "pAway": 0.1723,
+      "expGoalsHome": 1.8,
+      "expGoalsAway": 0.9,
       "over25": 0.5063,
-      "btts": 0.4955,
+      "btts": 0.5105,
       "topScore": "1-1",
-      "topScoreP": 0.1192,
+      "topScoreP": 0.1233,
       "drivers": [
-        "Morocco is 176 Elo points stronger — the model's lean",
-        "Expected score 1.9-0.8, over-2.5 goals 51%"
+        "Morocco is 156 Elo points stronger — the model's lean",
+        "Expected score 1.8-0.9, over-2.5 goals 51%"
       ]
     },
     {
@@ -940,17 +939,17 @@
       "group": "I",
       "home": "france",
       "away": "senegal",
-      "pHome": 0.7912,
-      "pDraw": 0.1646,
-      "pAway": 0.0442,
-      "expGoalsHome": 2.28,
-      "expGoalsAway": 0.42,
-      "over25": 0.5061,
-      "btts": 0.3138,
+      "pHome": 0.8138,
+      "pDraw": 0.1514,
+      "pAway": 0.0348,
+      "expGoalsHome": 2.34,
+      "expGoalsAway": 0.36,
+      "over25": 0.506,
+      "btts": 0.2797,
       "topScore": "2-0",
-      "topScoreP": 0.1754,
+      "topScoreP": 0.1844,
       "drivers": [
-        "France is 327 Elo points stronger — the model's lean",
+        "France is 347 Elo points stronger — the model's lean",
         "Expected score 2.3-0.4, over-2.5 goals 51%"
       ]
     },
@@ -959,18 +958,18 @@
       "group": "I",
       "home": "france",
       "away": "iraq",
-      "pHome": 0.8987,
-      "pDraw": 0.0864,
-      "pAway": 0.0149,
-      "expGoalsHome": 3.01,
+      "pHome": 0.9032,
+      "pDraw": 0.0827,
+      "pAway": 0.0141,
+      "expGoalsHome": 3.07,
       "expGoalsAway": 0.3,
-      "over25": 0.6417,
-      "btts": 0.2507,
+      "over25": 0.6529,
+      "btts": 0.2512,
       "topScore": "3-0",
       "topScoreP": 0.1666,
       "drivers": [
-        "France is 582 Elo points stronger — the model's lean",
-        "Expected score 3.0-0.3, over-2.5 goals 64%"
+        "France is 602 Elo points stronger — the model's lean",
+        "Expected score 3.1-0.3, over-2.5 goals 65%"
       ]
     },
     {
@@ -978,18 +977,18 @@
       "group": "I",
       "home": "france",
       "away": "norway",
-      "pHome": 0.5906,
-      "pDraw": 0.2517,
-      "pAway": 0.1577,
-      "expGoalsHome": 1.84,
-      "expGoalsAway": 0.86,
+      "pHome": 0.618,
+      "pDraw": 0.2427,
+      "pAway": 0.1393,
+      "expGoalsHome": 1.9,
+      "expGoalsAway": 0.8,
       "over25": 0.5063,
-      "btts": 0.4994,
-      "topScore": "1-1",
-      "topScoreP": 0.1203,
+      "btts": 0.4829,
+      "topScore": "2-0",
+      "topScoreP": 0.1208,
       "drivers": [
-        "France is 171 Elo points stronger — the model's lean",
-        "Expected score 1.8-0.9, over-2.5 goals 51%"
+        "France is 191 Elo points stronger — the model's lean",
+        "Expected score 1.9-0.8, over-2.5 goals 51%"
       ]
     },
     {
