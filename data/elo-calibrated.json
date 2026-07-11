@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-10T16:37:41.480Z",
+  "generatedAt": "2026-07-11T11:39:20.997Z",
   "source": "World Football Elo — https://www.eloratings.net",
-  "snapshotDate": "2026-07-10",
+  "snapshotDate": "2026-07-11",
   "dataIsSynthetic": false,
   "method": "Real World Football Elo snapshot used directly (already calibrated on all real internationals).",
   "ratings": {
@@ -29,11 +29,11 @@
     "japan": 1888,
     "sweden": 1731,
     "tunisia": 1562,
-    "belgium": 1961,
+    "belgium": 1948,
     "egypt": 1742,
     "iran": 1764,
     "new-zealand": 1534,
-    "spain": 2177,
+    "spain": 2190,
     "cape-verde": 1619,
     "saudi-arabia": 1596,
     "uruguay": 1841,
