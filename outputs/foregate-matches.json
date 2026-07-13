@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T12:08:32.332Z",
+  "generatedAt": "2026-07-13T17:21:27.002Z",
   "dataIsSynthetic": false,
   "matches": [
     {
@@ -1284,17 +1284,17 @@
       "group": "L",
       "home": "england",
       "away": "croatia",
-      "pHome": 0.6505,
-      "pDraw": 0.2309,
-      "pAway": 0.1186,
-      "expGoalsHome": 1.96,
-      "expGoalsAway": 0.74,
+      "pHome": 0.6519,
+      "pDraw": 0.2304,
+      "pAway": 0.1177,
+      "expGoalsHome": 1.97,
+      "expGoalsAway": 0.73,
       "over25": 0.5063,
-      "btts": 0.4604,
+      "btts": 0.4594,
       "topScore": "2-0",
-      "topScoreP": 0.1297,
+      "topScoreP": 0.1301,
       "drivers": [
-        "England is 215 Elo points stronger — the model's lean",
+        "England is 216 Elo points stronger — the model's lean",
         "Expected score 2.0-0.7, over-2.5 goals 51%"
       ]
     },
@@ -1341,17 +1341,17 @@
       "group": "L",
       "home": "croatia",
       "away": "ghana",
-      "pHome": 0.7737,
-      "pDraw": 0.1742,
-      "pAway": 0.052,
+      "pHome": 0.7725,
+      "pDraw": 0.1749,
+      "pAway": 0.0526,
       "expGoalsHome": 2.24,
       "expGoalsAway": 0.46,
       "over25": 0.5061,
-      "btts": 0.3377,
+      "btts": 0.3392,
       "topScore": "2-0",
-      "topScoreP": 0.1689,
+      "topScoreP": 0.1685,
       "drivers": [
-        "Croatia is 312 Elo points stronger — the model's lean",
+        "Croatia is 311 Elo points stronger — the model's lean",
         "Expected score 2.2-0.5, over-2.5 goals 51%"
       ]
     },
@@ -1360,17 +1360,17 @@
       "group": "L",
       "home": "croatia",
       "away": "panama",
-      "pHome": 0.6626,
-      "pDraw": 0.2262,
-      "pAway": 0.1112,
+      "pHome": 0.6612,
+      "pDraw": 0.2267,
+      "pAway": 0.112,
       "expGoalsHome": 1.99,
       "expGoalsAway": 0.71,
       "over25": 0.5063,
-      "btts": 0.4512,
+      "btts": 0.4522,
       "topScore": "2-0",
-      "topScoreP": 0.1331,
+      "topScoreP": 0.1327,
       "drivers": [
-        "Croatia is 224 Elo points stronger — the model's lean",
+        "Croatia is 223 Elo points stronger — the model's lean",
         "Expected score 2.0-0.7, over-2.5 goals 51%"
       ]
     },

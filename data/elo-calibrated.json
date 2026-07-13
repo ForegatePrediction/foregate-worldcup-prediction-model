@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T12:08:31.335Z",
+  "generatedAt": "2026-07-13T17:21:26.022Z",
   "source": "World Football Elo — https://www.eloratings.net",
-  "snapshotDate": "2026-07-12",
+  "snapshotDate": "2026-07-13",
   "dataIsSynthetic": false,
   "method": "Real World Football Elo snapshot used directly (already calibrated on all real internationals).",
   "ratings": {
@@ -50,7 +50,7 @@
     "uzbekistan": 1631,
     "colombia": 2003,
     "england": 2097,
-    "croatia": 1882,
+    "croatia": 1881,
     "ghana": 1570,
     "panama": 1658
   }
