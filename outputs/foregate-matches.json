@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:19:24.487Z",
+  "generatedAt": "2026-07-17T12:48:36.203Z",
   "dataIsSynthetic": false,
   "matches": [
     {
@@ -7,17 +7,17 @@
       "group": "A",
       "home": "mexico",
       "away": "south-africa",
-      "pHome": 0.8568,
-      "pDraw": 0.1209,
-      "pAway": 0.0224,
-      "expGoalsHome": 2.57,
+      "pHome": 0.8571,
+      "pDraw": 0.1206,
+      "pAway": 0.0223,
+      "expGoalsHome": 2.58,
       "expGoalsAway": 0.3,
-      "over25": 0.5471,
+      "over25": 0.5478,
       "btts": 0.2451,
       "topScore": "2-0",
-      "topScoreP": 0.1874,
+      "topScoreP": 0.1873,
       "drivers": [
-        "Mexico is 428 Elo points stronger — the model's lean",
+        "Mexico is 429 Elo points stronger — the model's lean",
         "Mexico gets the host-nation venue bonus (+75 Elo)",
         "Expected score 2.6-0.3, over-2.5 goals 55%"
       ]
@@ -67,17 +67,17 @@
       "group": "A",
       "home": "south-africa",
       "away": "south-korea",
-      "pHome": 0.1654,
-      "pDraw": 0.2551,
-      "pAway": 0.5795,
+      "pHome": 0.1645,
+      "pDraw": 0.2547,
+      "pAway": 0.5809,
       "expGoalsHome": 0.88,
       "expGoalsAway": 1.82,
       "over25": 0.5063,
-      "btts": 0.5055,
+      "btts": 0.5048,
       "topScore": "1-1",
-      "topScoreP": 0.1219,
+      "topScoreP": 0.1217,
       "drivers": [
-        "South Korea is 163 Elo points stronger — the model's lean",
+        "South Korea is 164 Elo points stronger — the model's lean",
         "Expected score 0.9-1.8, over-2.5 goals 51%"
       ]
     },
@@ -86,17 +86,17 @@
       "group": "A",
       "home": "south-africa",
       "away": "czech-republic",
-      "pHome": 0.2097,
-      "pDraw": 0.2707,
-      "pAway": 0.5196,
-      "expGoalsHome": 1.01,
-      "expGoalsAway": 1.69,
+      "pHome": 0.2086,
+      "pDraw": 0.2704,
+      "pAway": 0.521,
+      "expGoalsHome": 1,
+      "expGoalsAway": 1.7,
       "over25": 0.5063,
-      "btts": 0.5328,
+      "btts": 0.5323,
       "topScore": "1-1",
-      "topScoreP": 0.1295,
+      "topScoreP": 0.1293,
       "drivers": [
-        "Czech Republic is 120 Elo points stronger — the model's lean",
+        "Czech Republic is 121 Elo points stronger — the model's lean",
         "Expected score 1.0-1.7, over-2.5 goals 51%"
       ]
     },
