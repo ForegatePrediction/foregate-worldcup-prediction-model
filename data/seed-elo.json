@@ -1,7 +1,7 @@
 {
   "_note": "REAL national-team Elo for the 48 qualified teams, from World Football Elo (eloratings.net), snapshot 2026-06-21. Hosts get a venue bonus only when playing at home (USA/MEX/CAN 2026).",
   "source": "https://www.eloratings.net/World.tsv",
-  "snapshotDate": "2026-07-28",
+  "snapshotDate": "2026-07-29",
   "homeNations": [
     "usa",
     "mexico",
@@ -9,7 +9,7 @@
   ],
   "ratings": {
     "mexico": 1913,
-    "south-africa": 1559,
+    "south-africa": 1560,
     "south-korea": 1723,
     "czech-republic": 1680,
     "canada": 1729,
@@ -26,13 +26,13 @@
     "turkey": 1852,
     "germany": 1908,
     "curacao": 1438,
-    "ivory-coast": 1727,
+    "ivory-coast": 1728,
     "ecuador": 1871,
     "netherlands": 1971,
     "japan": 1888,
     "sweden": 1731,
     "tunisia": 1562,
-    "belgium": 1948,
+    "belgium": 1947,
     "egypt": 1742,
     "iran": 1764,
     "new-zealand": 1534,
@@ -50,11 +50,11 @@
     "jordan": 1628,
     "portugal": 1995,
     "dr-congo": 1704,
-    "uzbekistan": 1631,
+    "uzbekistan": 1630,
     "colombia": 2003,
     "england": 2125,
-    "croatia": 1882,
-    "ghana": 1570,
+    "croatia": 1881,
+    "ghana": 1571,
     "panama": 1658
   }
 }
