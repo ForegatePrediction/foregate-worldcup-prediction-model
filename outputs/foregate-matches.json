@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T11:16:36.724Z",
+  "generatedAt": "2026-08-06T11:17:41.935Z",
   "dataIsSynthetic": false,
   "matches": [
     {
@@ -1187,17 +1187,17 @@
       "group": "K",
       "home": "portugal",
       "away": "uzbekistan",
-      "pHome": 0.8333,
-      "pDraw": 0.1394,
-      "pAway": 0.0273,
+      "pHome": 0.8323,
+      "pDraw": 0.1401,
+      "pAway": 0.0277,
       "expGoalsHome": 2.39,
       "expGoalsAway": 0.31,
       "over25": 0.506,
-      "btts": 0.2467,
+      "btts": 0.2486,
       "topScore": "2-0",
-      "topScoreP": 0.1926,
+      "topScoreP": 0.1921,
       "drivers": [
-        "Portugal is 365 Elo points stronger — the model's lean",
+        "Portugal is 364 Elo points stronger — the model's lean",
         "Expected score 2.4-0.3, over-2.5 goals 51%"
       ]
     },
@@ -1226,17 +1226,17 @@
       "group": "K",
       "home": "dr-congo",
       "away": "uzbekistan",
-      "pHome": 0.4554,
-      "pDraw": 0.2826,
-      "pAway": 0.262,
+      "pHome": 0.454,
+      "pDraw": 0.2828,
+      "pAway": 0.2632,
       "expGoalsHome": 1.56,
       "expGoalsAway": 1.14,
       "over25": 0.5064,
-      "btts": 0.5526,
+      "btts": 0.5529,
       "topScore": "1-1",
-      "topScoreP": 0.135,
+      "topScoreP": 0.1351,
       "drivers": [
-        "Dr Congo is 74 Elo points stronger — the model's lean",
+        "Dr Congo is 73 Elo points stronger — the model's lean",
         "Tight rating + low-scoring tendency -> elevated draw chance (28%)",
         "Expected score 1.6-1.1, over-2.5 goals 51%"
       ]
@@ -1265,17 +1265,17 @@
       "group": "K",
       "home": "uzbekistan",
       "away": "colombia",
-      "pHome": 0.0259,
-      "pDraw": 0.1361,
-      "pAway": 0.838,
+      "pHome": 0.026,
+      "pDraw": 0.1364,
+      "pAway": 0.8376,
       "expGoalsHome": 0.3,
-      "expGoalsAway": 2.42,
-      "over25": 0.5098,
-      "btts": 0.2423,
+      "expGoalsAway": 2.41,
+      "over25": 0.5091,
+      "btts": 0.2422,
       "topScore": "0-2",
-      "topScoreP": 0.1932,
+      "topScoreP": 0.1933,
       "drivers": [
-        "Colombia is 373 Elo points stronger — the model's lean",
+        "Colombia is 372 Elo points stronger — the model's lean",
         "Expected score 0.3-2.4, over-2.5 goals 51%"
       ]
     },

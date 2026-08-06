@@ -1,7 +1,7 @@
 {
   "_note": "REAL national-team Elo for the 48 qualified teams, from World Football Elo (eloratings.net), snapshot 2026-06-21. Hosts get a venue bonus only when playing at home (USA/MEX/CAN 2026).",
   "source": "https://www.eloratings.net/World.tsv",
-  "snapshotDate": "2026-08-05",
+  "snapshotDate": "2026-08-06",
   "homeNations": [
     "usa",
     "mexico",
@@ -50,7 +50,7 @@
     "jordan": 1628,
     "portugal": 1995,
     "dr-congo": 1704,
-    "uzbekistan": 1630,
+    "uzbekistan": 1631,
     "colombia": 2003,
     "england": 2125,
     "croatia": 1881,
