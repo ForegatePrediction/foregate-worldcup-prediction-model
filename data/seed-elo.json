@@ -1,7 +1,7 @@
 {
   "_note": "REAL national-team Elo for the 48 qualified teams, from World Football Elo (eloratings.net), snapshot 2026-06-21. Hosts get a venue bonus only when playing at home (USA/MEX/CAN 2026).",
   "source": "https://www.eloratings.net/World.tsv",
-  "snapshotDate": "2026-08-07",
+  "snapshotDate": "2026-08-08",
   "homeNations": [
     "usa",
     "mexico",
@@ -42,8 +42,8 @@
     "uruguay": 1841,
     "france": 2070,
     "senegal": 1816,
-    "iraq": 1561,
-    "norway": 1951,
+    "iraq": 1560,
+    "norway": 1952,
     "argentina": 2173,
     "algeria": 1756,
     "austria": 1821,
