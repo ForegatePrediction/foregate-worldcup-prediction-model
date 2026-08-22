@@ -1,7 +1,7 @@
 {
   "_note": "REAL national-team Elo for the 48 qualified teams, from World Football Elo (eloratings.net), snapshot 2026-06-21. Hosts get a venue bonus only when playing at home (USA/MEX/CAN 2026).",
   "source": "https://www.eloratings.net/World.tsv",
-  "snapshotDate": "2026-08-21",
+  "snapshotDate": "2026-08-22",
   "homeNations": [
     "usa",
     "mexico",
@@ -20,7 +20,7 @@
     "morocco": 1901,
     "haiti": 1517,
     "scotland": 1746,
-    "usa": 1747,
+    "usa": 1746,
     "paraguay": 1814,
     "australia": 1795,
     "turkey": 1852,
