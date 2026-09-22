@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T15:36:17.119Z",
+  "generatedAt": "2026-09-22T13:51:03.791Z",
   "source": "World Football Elo — https://www.eloratings.net",
-  "snapshotDate": "2026-09-21",
+  "snapshotDate": "2026-09-22",
   "dataIsSynthetic": false,
   "method": "Real World Football Elo snapshot used directly (already calibrated on all real internationals).",
   "ratings": {
@@ -25,7 +25,7 @@
     "curacao": 1438,
     "ivory-coast": 1728,
     "ecuador": 1871,
-    "netherlands": 1970,
+    "netherlands": 1971,
     "japan": 1888,
     "sweden": 1731,
     "tunisia": 1562,
