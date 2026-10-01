@@ -1,7 +1,7 @@
 {
   "_note": "REAL national-team Elo for the 48 qualified teams, from World Football Elo (eloratings.net), snapshot 2026-06-21. Hosts get a venue bonus only when playing at home (USA/MEX/CAN 2026).",
   "source": "https://www.eloratings.net/World.tsv",
-  "snapshotDate": "2026-09-30",
+  "snapshotDate": "2026-10-01",
   "homeNations": [
     "usa",
     "mexico",
@@ -9,12 +9,12 @@
   ],
   "ratings": {
     "mexico": 1910,
-    "south-africa": 1570,
+    "south-africa": 1579,
     "south-korea": 1725,
     "czech-republic": 1659,
     "canada": 1736,
     "bosnia-and-herzegovina": 1655,
-    "qatar": 1449,
+    "qatar": 1456,
     "switzerland": 1968,
     "brazil": 2001,
     "morocco": 1904,
@@ -27,15 +27,15 @@
     "germany": 1884,
     "curacao": 1486,
     "ivory-coast": 1739,
-    "ecuador": 1851,
+    "ecuador": 1857,
     "netherlands": 1974,
-    "japan": 1901,
+    "japan": 1895,
     "sweden": 1759,
     "tunisia": 1533,
     "belgium": 1959,
     "egypt": 1732,
     "iran": 1738,
-    "new-zealand": 1557,
+    "new-zealand": 1561,
     "spain": 2281,
     "cape-verde": 1560,
     "saudi-arabia": 1634,
@@ -44,7 +44,7 @@
     "senegal": 1803,
     "iraq": 1546,
     "norway": 1937,
-    "argentina": 2173,
+    "argentina": 2174,
     "algeria": 1743,
     "austria": 1845,
     "jordan": 1622,
@@ -55,6 +55,6 @@
     "england": 2114,
     "croatia": 1891,
     "ghana": 1512,
-    "panama": 1650
+    "panama": 1646
   }
 }
