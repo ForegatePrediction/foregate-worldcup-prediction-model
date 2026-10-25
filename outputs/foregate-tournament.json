@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T13:03:32.262Z",
+  "generatedAt": "2026-10-25T13:31:35.456Z",
   "sims": 10000,
   "seed": 2026,
   "dataIsSynthetic": false,
@@ -9,87 +9,87 @@
       "team": "spain",
       "group": "H",
       "elo": 2287,
-      "advance": 0.9994,
-      "r16": 0.9708,
-      "qf": 0.8965,
-      "sf": 0.7841,
-      "final": 0.6518,
-      "champion": 0.5143,
+      "advance": 0.9997,
+      "r16": 0.9676,
+      "qf": 0.8951,
+      "sf": 0.7823,
+      "final": 0.6471,
+      "champion": 0.5092,
       "championCI": [
-        0.5045,
-        0.5241
+        0.4994,
+        0.519
       ],
       "drivers": [
         "Calibrated Elo 2287, Group H; advance probability 100%",
-        "Title favourite (51.4%)"
+        "Title favourite (50.9%)"
       ]
     },
     {
       "team": "argentina",
       "group": "J",
       "elo": 2175,
-      "advance": 0.998,
-      "r16": 0.936,
-      "qf": 0.7832,
-      "sf": 0.5723,
-      "final": 0.3575,
-      "champion": 0.1795,
+      "advance": 0.9981,
+      "r16": 0.9327,
+      "qf": 0.7866,
+      "sf": 0.5727,
+      "final": 0.3615,
+      "champion": 0.1798,
       "championCI": [
-        0.172,
-        0.187
+        0.1723,
+        0.1873
       ],
       "drivers": [
         "Calibrated Elo 2175, Group J; advance probability 100%",
-        "Title favourite (17.9%)"
+        "Title favourite (18.0%)"
       ]
     },
     {
       "team": "england",
       "group": "L",
       "elo": 2146,
-      "advance": 0.9982,
-      "r16": 0.9225,
-      "qf": 0.7457,
-      "sf": 0.5123,
-      "final": 0.2941,
-      "champion": 0.1315,
+      "advance": 0.9985,
+      "r16": 0.9309,
+      "qf": 0.7509,
+      "sf": 0.5215,
+      "final": 0.2982,
+      "champion": 0.1339,
       "championCI": [
-        0.1249,
-        0.1381
+        0.1272,
+        0.1406
       ],
       "drivers": [
         "Calibrated Elo 2146, Group L; advance probability 100%",
-        "Title favourite (13.2%)"
+        "Title favourite (13.4%)"
       ]
     },
     {
       "team": "france",
       "group": "I",
       "elo": 2104,
-      "advance": 0.9934,
-      "r16": 0.8806,
-      "qf": 0.6495,
-      "sf": 0.4048,
-      "final": 0.2019,
-      "champion": 0.0753,
+      "advance": 0.9931,
+      "r16": 0.8811,
+      "qf": 0.6516,
+      "sf": 0.398,
+      "final": 0.2039,
+      "champion": 0.0784,
       "championCI": [
-        0.0701,
-        0.0805
+        0.0731,
+        0.0837
       ],
       "drivers": [
         "Calibrated Elo 2104, Group I; advance probability 99%",
-        "Live title contender (7.5%)"
+        "Live title contender (7.8%)"
       ]
     },
     {
       "team": "portugal",
       "group": "K",
       "elo": 2055,
-      "advance": 0.9894,
-      "r16": 0.8136,
-      "qf": 0.5197,
-      "sf": 0.2761,
-      "final": 0.1165,
+      "advance": 0.9905,
+      "r16": 0.8238,
+      "qf": 0.5297,
+      "sf": 0.2743,
+      "final": 0.1139,
       "champion": 0.0326,
       "championCI": [
         0.0291,
@@ -104,15 +104,15 @@
       "team": "brazil",
       "group": "C",
       "elo": 2001,
-      "advance": 0.9849,
-      "r16": 0.7733,
-      "qf": 0.4418,
-      "sf": 0.1964,
-      "final": 0.0695,
-      "champion": 0.0168,
+      "advance": 0.9845,
+      "r16": 0.7617,
+      "qf": 0.4324,
+      "sf": 0.193,
+      "final": 0.0635,
+      "champion": 0.0134,
       "championCI": [
-        0.0143,
-        0.0193
+        0.0111,
+        0.0157
       ],
       "drivers": [
         "Calibrated Elo 2001, Group C; advance probability 98%",
@@ -123,15 +123,15 @@
       "team": "colombia",
       "group": "K",
       "elo": 1990,
-      "advance": 0.9705,
-      "r16": 0.7027,
-      "qf": 0.3652,
-      "sf": 0.1633,
-      "final": 0.0545,
-      "champion": 0.0104,
+      "advance": 0.9713,
+      "r16": 0.7066,
+      "qf": 0.3718,
+      "sf": 0.1661,
+      "final": 0.0539,
+      "champion": 0.011,
       "championCI": [
-        0.0084,
-        0.0124
+        0.009,
+        0.013
       ],
       "drivers": [
         "Calibrated Elo 1990, Group K; advance probability 97%",
@@ -143,14 +143,14 @@
       "group": "B",
       "elo": 1975,
       "advance": 0.992,
-      "r16": 0.7595,
-      "qf": 0.4246,
-      "sf": 0.1761,
-      "final": 0.0495,
-      "champion": 0.0096,
+      "r16": 0.7596,
+      "qf": 0.422,
+      "sf": 0.1783,
+      "final": 0.0501,
+      "champion": 0.0106,
       "championCI": [
-        0.0077,
-        0.0115
+        0.0086,
+        0.0126
       ],
       "drivers": [
         "Calibrated Elo 1975, Group B; advance probability 99%",
@@ -161,18 +161,18 @@
       "team": "netherlands",
       "group": "F",
       "elo": 1974,
-      "advance": 0.9729,
-      "r16": 0.696,
-      "qf": 0.3645,
-      "sf": 0.1481,
-      "final": 0.0454,
-      "champion": 0.009,
+      "advance": 0.9757,
+      "r16": 0.6963,
+      "qf": 0.3663,
+      "sf": 0.1509,
+      "final": 0.0475,
+      "champion": 0.0096,
       "championCI": [
-        0.0071,
-        0.0109
+        0.0077,
+        0.0115
       ],
       "drivers": [
-        "Calibrated Elo 1974, Group F; advance probability 97%",
+        "Calibrated Elo 1974, Group F; advance probability 98%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
@@ -180,15 +180,15 @@
       "team": "belgium",
       "group": "G",
       "elo": 1956,
-      "advance": 0.9861,
-      "r16": 0.7217,
-      "qf": 0.3788,
-      "sf": 0.1378,
-      "final": 0.0379,
-      "champion": 0.0071,
+      "advance": 0.9858,
+      "r16": 0.7247,
+      "qf": 0.3753,
+      "sf": 0.1396,
+      "final": 0.0399,
+      "champion": 0.0081,
       "championCI": [
-        0.0055,
-        0.0087
+        0.0063,
+        0.0099
       ],
       "drivers": [
         "Calibrated Elo 1956, Group G; advance probability 99%",
@@ -199,15 +199,15 @@
       "team": "mexico",
       "group": "A",
       "elo": 1868,
-      "advance": 0.9806,
-      "r16": 0.6817,
-      "qf": 0.3243,
-      "sf": 0.1097,
-      "final": 0.0299,
-      "champion": 0.0053,
+      "advance": 0.9799,
+      "r16": 0.6828,
+      "qf": 0.3306,
+      "sf": 0.1147,
+      "final": 0.0269,
+      "champion": 0.0039,
       "championCI": [
-        0.0039,
-        0.0067
+        0.0027,
+        0.0051
       ],
       "drivers": [
         "Calibrated Elo 1868, Group A; advance probability 98%",
@@ -218,15 +218,15 @@
       "team": "japan",
       "group": "F",
       "elo": 1897,
-      "advance": 0.9418,
-      "r16": 0.5261,
-      "qf": 0.2095,
-      "sf": 0.0632,
-      "final": 0.0136,
-      "champion": 0.0017,
+      "advance": 0.9403,
+      "r16": 0.5315,
+      "qf": 0.2112,
+      "sf": 0.0646,
+      "final": 0.0142,
+      "champion": 0.0021,
       "championCI": [
-        0.0009,
-        0.0025
+        0.0012,
+        0.003
       ],
       "drivers": [
         "Calibrated Elo 1897, Group F; advance probability 94%",
@@ -234,56 +234,18 @@
       ]
     },
     {
-      "team": "norway",
-      "group": "I",
-      "elo": 1900,
-      "advance": 0.9097,
-      "r16": 0.4785,
-      "qf": 0.1798,
-      "sf": 0.0577,
-      "final": 0.0103,
-      "champion": 0.0014,
-      "championCI": [
-        0.0007,
-        0.0021
-      ],
-      "drivers": [
-        "Calibrated Elo 1900, Group I; advance probability 91%",
-        "Solid qualifier, capable of a deep knockout run"
-      ]
-    },
-    {
-      "team": "morocco",
-      "group": "C",
-      "elo": 1896,
-      "advance": 0.9304,
-      "r16": 0.5227,
-      "qf": 0.2036,
-      "sf": 0.0645,
-      "final": 0.0141,
-      "champion": 0.0012,
-      "championCI": [
-        0.0005,
-        0.0019
-      ],
-      "drivers": [
-        "Calibrated Elo 1896, Group C; advance probability 93%",
-        "Solid qualifier, capable of a deep knockout run"
-      ]
-    },
-    {
       "team": "germany",
       "group": "E",
       "elo": 1895,
-      "advance": 0.967,
-      "r16": 0.5851,
-      "qf": 0.2446,
-      "sf": 0.0716,
+      "advance": 0.966,
+      "r16": 0.5746,
+      "qf": 0.2332,
+      "sf": 0.0676,
       "final": 0.0155,
-      "champion": 0.0011,
+      "champion": 0.0018,
       "championCI": [
-        0.0005,
-        0.0017
+        0.001,
+        0.0026
       ],
       "drivers": [
         "Calibrated Elo 1895, Group E; advance probability 97%",
@@ -291,59 +253,40 @@
       ]
     },
     {
-      "team": "croatia",
-      "group": "L",
-      "elo": 1856,
-      "advance": 0.9299,
-      "r16": 0.4319,
-      "qf": 0.1255,
-      "sf": 0.0358,
-      "final": 0.0072,
-      "champion": 0.0007,
+      "team": "morocco",
+      "group": "C",
+      "elo": 1896,
+      "advance": 0.9352,
+      "r16": 0.5257,
+      "qf": 0.1999,
+      "sf": 0.0618,
+      "final": 0.0133,
+      "champion": 0.0016,
       "championCI": [
-        0.0002,
-        0.0012
+        0.0008,
+        0.0024
       ],
       "drivers": [
-        "Calibrated Elo 1856, Group L; advance probability 93%",
+        "Calibrated Elo 1896, Group C; advance probability 94%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
     {
-      "team": "usa",
-      "group": "D",
-      "elo": 1792,
-      "advance": 0.7857,
-      "r16": 0.3814,
-      "qf": 0.1266,
-      "sf": 0.03,
-      "final": 0.0055,
-      "champion": 0.0006,
+      "team": "norway",
+      "group": "I",
+      "elo": 1900,
+      "advance": 0.9089,
+      "r16": 0.47,
+      "qf": 0.1729,
+      "sf": 0.0513,
+      "final": 0.0096,
+      "champion": 0.001,
       "championCI": [
-        0.0001,
-        0.0011
+        0.0004,
+        0.0016
       ],
       "drivers": [
-        "Calibrated Elo 1792, Group D; advance probability 79%",
-        "Solid qualifier, capable of a deep knockout run"
-      ]
-    },
-    {
-      "team": "ecuador",
-      "group": "E",
-      "elo": 1849,
-      "advance": 0.9408,
-      "r16": 0.4665,
-      "qf": 0.1595,
-      "sf": 0.0373,
-      "final": 0.0065,
-      "champion": 0.0006,
-      "championCI": [
-        0.0001,
-        0.0011
-      ],
-      "drivers": [
-        "Calibrated Elo 1849, Group E; advance probability 94%",
+        "Calibrated Elo 1900, Group I; advance probability 91%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
@@ -351,15 +294,15 @@
       "team": "uruguay",
       "group": "H",
       "elo": 1851,
-      "advance": 0.8941,
-      "r16": 0.3943,
-      "qf": 0.1128,
-      "sf": 0.0272,
-      "final": 0.0044,
-      "champion": 0.0006,
+      "advance": 0.8912,
+      "r16": 0.3966,
+      "qf": 0.1098,
+      "sf": 0.0291,
+      "final": 0.0062,
+      "champion": 0.0008,
       "championCI": [
-        0.0001,
-        0.0011
+        0.0002,
+        0.0014
       ],
       "drivers": [
         "Calibrated Elo 1851, Group H; advance probability 89%",
@@ -367,40 +310,97 @@
       ]
     },
     {
-      "team": "austria",
-      "group": "J",
-      "elo": 1841,
-      "advance": 0.8,
-      "r16": 0.3168,
-      "qf": 0.0952,
-      "sf": 0.0232,
-      "final": 0.003,
+      "team": "croatia",
+      "group": "L",
+      "elo": 1856,
+      "advance": 0.9214,
+      "r16": 0.4298,
+      "qf": 0.1292,
+      "sf": 0.0368,
+      "final": 0.0085,
+      "champion": 0.0007,
+      "championCI": [
+        0.0002,
+        0.0012
+      ],
+      "drivers": [
+        "Calibrated Elo 1856, Group L; advance probability 92%",
+        "Solid qualifier, capable of a deep knockout run"
+      ]
+    },
+    {
+      "team": "ecuador",
+      "group": "E",
+      "elo": 1849,
+      "advance": 0.9464,
+      "r16": 0.4662,
+      "qf": 0.1554,
+      "sf": 0.0368,
+      "final": 0.0059,
+      "champion": 0.0006,
+      "championCI": [
+        0.0001,
+        0.0011
+      ],
+      "drivers": [
+        "Calibrated Elo 1849, Group E; advance probability 95%",
+        "Solid qualifier, capable of a deep knockout run"
+      ]
+    },
+    {
+      "team": "usa",
+      "group": "D",
+      "elo": 1793,
+      "advance": 0.7862,
+      "r16": 0.3798,
+      "qf": 0.1261,
+      "sf": 0.0312,
+      "final": 0.0048,
       "champion": 0.0003,
       "championCI": [
         0,
         0.0006
       ],
       "drivers": [
-        "Calibrated Elo 1841, Group J; advance probability 80%",
+        "Calibrated Elo 1793, Group D; advance probability 79%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
     {
-      "team": "paraguay",
-      "group": "D",
-      "elo": 1836,
-      "advance": 0.7669,
-      "r16": 0.3505,
-      "qf": 0.1097,
-      "sf": 0.0254,
-      "final": 0.0032,
-      "champion": 0.0002,
+      "team": "austria",
+      "group": "J",
+      "elo": 1841,
+      "advance": 0.8051,
+      "r16": 0.3175,
+      "qf": 0.0943,
+      "sf": 0.0226,
+      "final": 0.0037,
+      "champion": 0.0003,
       "championCI": [
         0,
-        0.0005
+        0.0006
       ],
       "drivers": [
-        "Calibrated Elo 1836, Group D; advance probability 77%",
+        "Calibrated Elo 1841, Group J; advance probability 81%",
+        "Solid qualifier, capable of a deep knockout run"
+      ]
+    },
+    {
+      "team": "canada",
+      "group": "B",
+      "elo": 1739,
+      "advance": 0.9081,
+      "r16": 0.3501,
+      "qf": 0.0891,
+      "sf": 0.0173,
+      "final": 0.0026,
+      "champion": 0.0001,
+      "championCI": [
+        0,
+        0.0003
+      ],
+      "drivers": [
+        "Calibrated Elo 1739, Group B; advance probability 91%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
@@ -408,18 +408,37 @@
       "team": "senegal",
       "group": "I",
       "elo": 1805,
-      "advance": 0.7462,
-      "r16": 0.2289,
-      "qf": 0.0644,
-      "sf": 0.0135,
-      "final": 0.002,
-      "champion": 0.0002,
+      "advance": 0.7404,
+      "r16": 0.2306,
+      "qf": 0.0646,
+      "sf": 0.0128,
+      "final": 0.0019,
+      "champion": 0.0001,
       "championCI": [
         0,
-        0.0005
+        0.0003
       ],
       "drivers": [
-        "Calibrated Elo 1805, Group I; advance probability 75%",
+        "Calibrated Elo 1805, Group I; advance probability 74%",
+        "Solid qualifier, capable of a deep knockout run"
+      ]
+    },
+    {
+      "team": "algeria",
+      "group": "J",
+      "elo": 1744,
+      "advance": 0.5737,
+      "r16": 0.1337,
+      "qf": 0.0262,
+      "sf": 0.0033,
+      "final": 0.0003,
+      "champion": 0.0001,
+      "championCI": [
+        0,
+        0.0003
+      ],
+      "drivers": [
+        "Calibrated Elo 1744, Group J; advance probability 57%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
@@ -427,9 +446,9 @@
       "team": "south-africa",
       "group": "A",
       "elo": 1595,
-      "advance": 0.3703,
-      "r16": 0.0377,
-      "qf": 0.0028,
+      "advance": 0.3722,
+      "r16": 0.0359,
+      "qf": 0.0027,
       "sf": 0,
       "final": 0,
       "champion": 0,
@@ -446,11 +465,11 @@
       "team": "south-korea",
       "group": "A",
       "elo": 1730,
-      "advance": 0.772,
-      "r16": 0.2046,
-      "qf": 0.0385,
-      "sf": 0.0051,
-      "final": 0.0003,
+      "advance": 0.7673,
+      "r16": 0.2069,
+      "qf": 0.0368,
+      "sf": 0.0053,
+      "final": 0.0005,
       "champion": 0,
       "championCI": [
         0,
@@ -465,9 +484,9 @@
       "team": "czech-republic",
       "group": "A",
       "elo": 1656,
-      "advance": 0.5573,
-      "r16": 0.085,
-      "qf": 0.0104,
+      "advance": 0.5638,
+      "r16": 0.0874,
+      "qf": 0.0129,
       "sf": 0.0011,
       "final": 0.0001,
       "champion": 0,
@@ -481,32 +500,13 @@
       ]
     },
     {
-      "team": "canada",
-      "group": "B",
-      "elo": 1739,
-      "advance": 0.9061,
-      "r16": 0.344,
-      "qf": 0.0904,
-      "sf": 0.0181,
-      "final": 0.0019,
-      "champion": 0,
-      "championCI": [
-        0,
-        0
-      ],
-      "drivers": [
-        "Calibrated Elo 1739, Group B; advance probability 91%",
-        "Solid qualifier, capable of a deep knockout run"
-      ]
-    },
-    {
       "team": "bosnia-and-herzegovina",
       "group": "B",
       "elo": 1672,
-      "advance": 0.6681,
-      "r16": 0.1023,
-      "qf": 0.0162,
-      "sf": 0.0014,
+      "advance": 0.6612,
+      "r16": 0.1025,
+      "qf": 0.0145,
+      "sf": 0.0016,
       "final": 0,
       "champion": 0,
       "championCI": [
@@ -514,7 +514,7 @@
         0
       ],
       "drivers": [
-        "Calibrated Elo 1672, Group B; advance probability 67%",
+        "Calibrated Elo 1672, Group B; advance probability 66%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
@@ -522,8 +522,8 @@
       "team": "qatar",
       "group": "B",
       "elo": 1469,
-      "advance": 0.1261,
-      "r16": 0.0042,
+      "advance": 0.1262,
+      "r16": 0.0039,
       "qf": 0.0001,
       "sf": 0,
       "final": 0,
@@ -541,9 +541,9 @@
       "team": "haiti",
       "group": "C",
       "elo": 1563,
-      "advance": 0.1584,
-      "r16": 0.0112,
-      "qf": 0.0012,
+      "advance": 0.1571,
+      "r16": 0.0099,
+      "qf": 0.0004,
       "sf": 0,
       "final": 0,
       "champion": 0,
@@ -560,10 +560,10 @@
       "team": "scotland",
       "group": "C",
       "elo": 1718,
-      "advance": 0.5972,
-      "r16": 0.1147,
-      "qf": 0.0203,
-      "sf": 0.0022,
+      "advance": 0.6005,
+      "r16": 0.1131,
+      "qf": 0.0213,
+      "sf": 0.0021,
       "final": 0.0004,
       "champion": 0,
       "championCI": [
@@ -576,12 +576,31 @@
       ]
     },
     {
+      "team": "paraguay",
+      "group": "D",
+      "elo": 1836,
+      "advance": 0.773,
+      "r16": 0.3473,
+      "qf": 0.1118,
+      "sf": 0.024,
+      "final": 0.0028,
+      "champion": 0,
+      "championCI": [
+        0,
+        0
+      ],
+      "drivers": [
+        "Calibrated Elo 1836, Group D; advance probability 77%",
+        "Solid qualifier, capable of a deep knockout run"
+      ]
+    },
+    {
       "team": "australia",
       "group": "D",
       "elo": 1786,
-      "advance": 0.6432,
-      "r16": 0.2204,
-      "qf": 0.0534,
+      "advance": 0.6397,
+      "r16": 0.2169,
+      "qf": 0.0526,
       "sf": 0.0081,
       "final": 0.001,
       "champion": 0,
@@ -598,11 +617,11 @@
       "team": "turkey",
       "group": "D",
       "elo": 1768,
-      "advance": 0.5904,
-      "r16": 0.1866,
-      "qf": 0.0391,
-      "sf": 0.0075,
-      "final": 0.0009,
+      "advance": 0.5924,
+      "r16": 0.1857,
+      "qf": 0.0409,
+      "sf": 0.008,
+      "final": 0.0008,
       "champion": 0,
       "championCI": [
         0,
@@ -617,9 +636,9 @@
       "team": "curacao",
       "group": "E",
       "elo": 1491,
-      "advance": 0.0974,
-      "r16": 0.0041,
-      "qf": 0.0001,
+      "advance": 0.0953,
+      "r16": 0.0047,
+      "qf": 0.0002,
       "sf": 0,
       "final": 0,
       "champion": 0,
@@ -636,11 +655,11 @@
       "team": "ivory-coast",
       "group": "E",
       "elo": 1723,
-      "advance": 0.7464,
-      "r16": 0.1774,
-      "qf": 0.0317,
+      "advance": 0.7455,
+      "r16": 0.1801,
+      "qf": 0.0323,
       "sf": 0.0045,
-      "final": 0.0001,
+      "final": 0.0002,
       "champion": 0,
       "championCI": [
         0,
@@ -655,18 +674,18 @@
       "team": "sweden",
       "group": "F",
       "elo": 1774,
-      "advance": 0.7421,
-      "r16": 0.2195,
-      "qf": 0.05,
-      "sf": 0.0084,
-      "final": 0.0008,
+      "advance": 0.7466,
+      "r16": 0.2141,
+      "qf": 0.0529,
+      "sf": 0.0082,
+      "final": 0.0009,
       "champion": 0,
       "championCI": [
         0,
         0
       ],
       "drivers": [
-        "Calibrated Elo 1774, Group F; advance probability 74%",
+        "Calibrated Elo 1774, Group F; advance probability 75%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
@@ -674,8 +693,8 @@
       "team": "tunisia",
       "group": "F",
       "elo": 1533,
-      "advance": 0.0915,
-      "r16": 0.0057,
+      "advance": 0.0912,
+      "r16": 0.0044,
       "qf": 0.0003,
       "sf": 0.0001,
       "final": 0,
@@ -693,18 +712,18 @@
       "team": "egypt",
       "group": "G",
       "elo": 1716,
-      "advance": 0.71,
-      "r16": 0.1648,
-      "qf": 0.027,
-      "sf": 0.0029,
-      "final": 0,
+      "advance": 0.7026,
+      "r16": 0.1576,
+      "qf": 0.0272,
+      "sf": 0.0032,
+      "final": 0.0001,
       "champion": 0,
       "championCI": [
         0,
         0
       ],
       "drivers": [
-        "Calibrated Elo 1716, Group G; advance probability 71%",
+        "Calibrated Elo 1716, Group G; advance probability 70%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     },
@@ -712,10 +731,10 @@
       "team": "iran",
       "group": "G",
       "elo": 1738,
-      "advance": 0.7577,
-      "r16": 0.1982,
-      "qf": 0.0355,
-      "sf": 0.005,
+      "advance": 0.7598,
+      "r16": 0.2044,
+      "qf": 0.0377,
+      "sf": 0.0051,
       "final": 0.0003,
       "champion": 0,
       "championCI": [
@@ -731,10 +750,10 @@
       "team": "new-zealand",
       "group": "G",
       "elo": 1559,
-      "advance": 0.2396,
-      "r16": 0.018,
+      "advance": 0.2416,
+      "r16": 0.0171,
       "qf": 0.0016,
-      "sf": 0.0002,
+      "sf": 0.0001,
       "final": 0,
       "champion": 0,
       "championCI": [
@@ -750,10 +769,10 @@
       "team": "cape-verde",
       "group": "H",
       "elo": 1560,
-      "advance": 0.2124,
-      "r16": 0.0136,
-      "qf": 0.001,
-      "sf": 0,
+      "advance": 0.2032,
+      "r16": 0.0149,
+      "qf": 0.0012,
+      "sf": 0.0001,
       "final": 0,
       "champion": 0,
       "championCI": [
@@ -761,7 +780,7 @@
         0
       ],
       "drivers": [
-        "Calibrated Elo 1560, Group H; advance probability 21%",
+        "Calibrated Elo 1560, Group H; advance probability 20%",
         "Advancing from the group is already a challenge"
       ]
     },
@@ -769,10 +788,10 @@
       "team": "saudi-arabia",
       "group": "H",
       "elo": 1639,
-      "advance": 0.4059,
-      "r16": 0.0425,
-      "qf": 0.005,
-      "sf": 0.0002,
+      "advance": 0.4087,
+      "r16": 0.0418,
+      "qf": 0.0054,
+      "sf": 0.0005,
       "final": 0,
       "champion": 0,
       "championCI": [
@@ -788,9 +807,9 @@
       "team": "iraq",
       "group": "I",
       "elo": 1546,
-      "advance": 0.0748,
-      "r16": 0.0048,
-      "qf": 0.0003,
+      "advance": 0.0777,
+      "r16": 0.0051,
+      "qf": 0.0005,
       "sf": 0,
       "final": 0,
       "champion": 0,
@@ -799,37 +818,18 @@
         0
       ],
       "drivers": [
-        "Calibrated Elo 1546, Group I; advance probability 7%",
+        "Calibrated Elo 1546, Group I; advance probability 8%",
         "Advancing from the group is already a challenge"
-      ]
-    },
-    {
-      "team": "algeria",
-      "group": "J",
-      "elo": 1744,
-      "advance": 0.577,
-      "r16": 0.1313,
-      "qf": 0.0283,
-      "sf": 0.0032,
-      "final": 0.0004,
-      "champion": 0,
-      "championCI": [
-        0,
-        0
-      ],
-      "drivers": [
-        "Calibrated Elo 1744, Group J; advance probability 58%",
-        "Solid qualifier, capable of a deep knockout run"
       ]
     },
     {
       "team": "jordan",
       "group": "J",
       "elo": 1622,
-      "advance": 0.2285,
-      "r16": 0.0248,
-      "qf": 0.0028,
-      "sf": 0.0003,
+      "advance": 0.2238,
+      "r16": 0.0234,
+      "qf": 0.0032,
+      "sf": 0,
       "final": 0,
       "champion": 0,
       "championCI": [
@@ -837,7 +837,7 @@
         0
       ],
       "drivers": [
-        "Calibrated Elo 1622, Group J; advance probability 23%",
+        "Calibrated Elo 1622, Group J; advance probability 22%",
         "Advancing from the group is already a challenge"
       ]
     },
@@ -845,9 +845,9 @@
       "team": "dr-congo",
       "group": "K",
       "elo": 1687,
-      "advance": 0.3578,
-      "r16": 0.0485,
-      "qf": 0.0063,
+      "advance": 0.3525,
+      "r16": 0.0482,
+      "qf": 0.007,
       "sf": 0.0007,
       "final": 0,
       "champion": 0,
@@ -856,7 +856,7 @@
         0
       ],
       "drivers": [
-        "Calibrated Elo 1687, Group K; advance probability 36%",
+        "Calibrated Elo 1687, Group K; advance probability 35%",
         "Advancing from the group is already a challenge"
       ]
     },
@@ -864,9 +864,9 @@
       "team": "uzbekistan",
       "group": "K",
       "elo": 1645,
-      "advance": 0.2481,
+      "advance": 0.2465,
       "r16": 0.0252,
-      "qf": 0.0029,
+      "qf": 0.0027,
       "sf": 0.0001,
       "final": 0,
       "champion": 0,
@@ -883,9 +883,9 @@
       "team": "ghana",
       "group": "L",
       "elo": 1512,
-      "advance": 0.1409,
-      "r16": 0.0063,
-      "qf": 0.0005,
+      "advance": 0.1468,
+      "r16": 0.0077,
+      "qf": 0.0004,
       "sf": 0,
       "final": 0,
       "champion": 0,
@@ -894,7 +894,7 @@
         0
       ],
       "drivers": [
-        "Calibrated Elo 1512, Group L; advance probability 14%",
+        "Calibrated Elo 1512, Group L; advance probability 15%",
         "Advancing from the group is already a challenge"
       ]
     },
@@ -902,10 +902,10 @@
       "team": "panama",
       "group": "L",
       "elo": 1654,
-      "advance": 0.5029,
-      "r16": 0.0635,
-      "qf": 0.0093,
-      "sf": 0.0005,
+      "advance": 0.5128,
+      "r16": 0.0679,
+      "qf": 0.0092,
+      "sf": 0.0006,
       "final": 0,
       "champion": 0,
       "championCI": [
@@ -913,7 +913,7 @@
         0
       ],
       "drivers": [
-        "Calibrated Elo 1654, Group L; advance probability 50%",
+        "Calibrated Elo 1654, Group L; advance probability 51%",
         "Solid qualifier, capable of a deep knockout run"
       ]
     }
