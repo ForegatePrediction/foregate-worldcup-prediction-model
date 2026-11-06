@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T17:03:34.704Z",
+  "generatedAt": "2026-11-06T16:33:36.952Z",
   "dataIsSynthetic": false,
   "matches": [
     {
@@ -976,17 +976,17 @@
       "group": "I",
       "home": "france",
       "away": "norway",
-      "pHome": 0.6357,
-      "pDraw": 0.2364,
-      "pAway": 0.1278,
+      "pHome": 0.6344,
+      "pDraw": 0.2369,
+      "pAway": 0.1287,
       "expGoalsHome": 1.93,
       "expGoalsAway": 0.77,
       "over25": 0.5063,
-      "btts": 0.4711,
+      "btts": 0.472,
       "topScore": "2-0",
-      "topScoreP": 0.1256,
+      "topScoreP": 0.1252,
       "drivers": [
-        "France is 204 Elo points stronger — the model's lean",
+        "France is 203 Elo points stronger — the model's lean",
         "Expected score 1.9-0.8, over-2.5 goals 51%"
       ]
     },
@@ -1014,17 +1014,17 @@
       "group": "I",
       "home": "senegal",
       "away": "norway",
-      "pHome": 0.2375,
-      "pDraw": 0.2779,
-      "pAway": 0.4846,
+      "pHome": 0.2364,
+      "pDraw": 0.2776,
+      "pAway": 0.486,
       "expGoalsHome": 1.08,
       "expGoalsAway": 1.62,
       "over25": 0.5063,
-      "btts": 0.5448,
+      "btts": 0.5444,
       "topScore": "1-1",
-      "topScoreP": 0.1328,
+      "topScoreP": 0.1327,
       "drivers": [
-        "Norway is 95 Elo points stronger — the model's lean",
+        "Norway is 96 Elo points stronger — the model's lean",
         "Expected score 1.1-1.6, over-2.5 goals 51%"
       ]
     },
@@ -1033,17 +1033,17 @@
       "group": "I",
       "home": "iraq",
       "away": "norway",
-      "pHome": 0.0317,
-      "pDraw": 0.1468,
-      "pAway": 0.8215,
+      "pHome": 0.0313,
+      "pDraw": 0.1461,
+      "pAway": 0.8226,
       "expGoalsHome": 0.34,
       "expGoalsAway": 2.36,
       "over25": 0.506,
-      "btts": 0.2671,
+      "btts": 0.2653,
       "topScore": "0-2",
-      "topScoreP": 0.1875,
+      "topScoreP": 0.188,
       "drivers": [
-        "Norway is 354 Elo points stronger — the model's lean",
+        "Norway is 355 Elo points stronger — the model's lean",
         "Expected score 0.3-2.4, over-2.5 goals 51%"
       ]
     },
