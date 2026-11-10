@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-09T19:26:53.851Z",
+  "generatedAt": "2026-11-10T16:44:34.697Z",
   "source": "World Football Elo — https://www.eloratings.net",
-  "snapshotDate": "2026-11-09",
+  "snapshotDate": "2026-11-10",
   "dataIsSynthetic": false,
   "method": "Real World Football Elo snapshot used directly (already calibrated on all real internationals).",
   "ratings": {
@@ -17,7 +17,7 @@
     "morocco": 1896,
     "haiti": 1563,
     "scotland": 1718,
-    "usa": 1793,
+    "usa": 1792,
     "paraguay": 1836,
     "australia": 1787,
     "turkey": 1768,
@@ -40,7 +40,7 @@
     "france": 2104,
     "senegal": 1805,
     "iraq": 1546,
-    "norway": 1900,
+    "norway": 1901,
     "argentina": 2175,
     "algeria": 1744,
     "austria": 1841,
