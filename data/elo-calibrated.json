@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-11T16:50:45.081Z",
+  "generatedAt": "2026-11-12T17:18:17.491Z",
   "source": "World Football Elo — https://www.eloratings.net",
-  "snapshotDate": "2026-11-11",
+  "snapshotDate": "2026-11-12",
   "dataIsSynthetic": false,
   "method": "Real World Football Elo snapshot used directly (already calibrated on all real internationals).",
   "ratings": {
@@ -19,7 +19,7 @@
     "scotland": 1718,
     "usa": 1792,
     "paraguay": 1836,
-    "australia": 1787,
+    "australia": 1786,
     "turkey": 1768,
     "germany": 1895,
     "curacao": 1491,
@@ -32,7 +32,7 @@
     "belgium": 1956,
     "egypt": 1716,
     "iran": 1738,
-    "new-zealand": 1559,
+    "new-zealand": 1561,
     "spain": 2287,
     "cape-verde": 1560,
     "saudi-arabia": 1639,
